@@ -4,6 +4,7 @@ import { Dialog } from '@headlessui/react'
 import {
     MdOutlineLibraryBooks,
     MdOutlineMedicalServices,
+    MdOutlineHome,
   
   MdOutlineAnalytics,
   MdOutlineIntegrationInstructions,
@@ -13,12 +14,32 @@ import {
 } from "react-icons/md";
 import { CgProfile ,} from "react-icons/cg";
 import { FaRegComments ,FaHeart,FaHandshake,FaBook,FaCampground} from "react-icons/fa";
+import MyModal from './MyModal';
+import MyModal2 from './MyModal2';
+import MyModal3 from './MyModal3';
+import MyModal4 from './MyModal4';
+import ReactPlayer from 'react-player';
 
 
  const SideBar = () => {
+ 
+  const [showMyModal, setShowMyModal ] = useState(false);
+  
+const handleOnClose = () => setShowMyModal(false) 
+
+const [Model2 , setModel2 ] =useState(false);
+const handleOnClose2=()=> setModel2(false);
+
+const [Model3 ,setModel3] =useState(false);
+const handleOnClose3 =()=> setModel3(false);
+
+const [Model4 ,setModel4] =useState(false);
+const handleOnClose4 =()=> setModel4(false);
 
   return (
-    <div class="flex items-start w-full	 relative   	"	>
+    
+    <div class="flex items-start w-full	 relative"	>
+      
     
       <div className="  border-2 border-gray-100 p-6 w-3/4 h-max bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
@@ -26,6 +47,12 @@ import { FaRegComments ,FaHeart,FaHandshake,FaBook,FaCampground} from "react-ico
          जय श्रीमन्नारायण 
           </h1>
           <div className=" my-4 border-b border-gray-100 pb-4">
+            <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              <MdOutlineHome className="text-3xl text-gray-600 group-hover:text-white " />
+              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
+                होम  
+              </h3>
+            </div>
             <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
@@ -61,7 +88,7 @@ import { FaRegComments ,FaHeart,FaHandshake,FaBook,FaCampground} from "react-ico
                 प्रकाशन 
               </h3>
             </div>
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaCampground  className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                 भूमिदान  
@@ -80,76 +107,76 @@ import { FaRegComments ,FaHeart,FaHandshake,FaBook,FaCampground} from "react-ico
           </div>
         </div>
       </div>
-      <div iv class=" w-2/4 ml-8 mt-2 grid grid-cols-2 gap-8 ">
-    <div class="p-6 mt-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-red-900 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">भूमि दान योजना 
-</h5>
-    </a>
-    <p class="mb-3 font-normal text-white-700 dark:text-stone-100">पूज्य गुरुदेव के द्वारा संस्थापित गुरुकुल , छत्रवास , मंदिर ,आयुर्वेदिक औषधालय , हृदयरोग  क्लिनिक , गौशाला आदि जिस भूखंड पर संचालित है इन गुरुकुलों के माध्यम से पूरे देश को ऐसे विद्वान् समर्पित कर सकें, जिनसे आदर्श .</p>
-    <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-    </a>
-</div>
-<div class="p-6 mt-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-red-900 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">भूमिदान का महत्त्व
-</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-stone-100">संसार में वस्त्र, अन्न, धन, पशु आदि सभी प्रकार के दान देने योग्य पदार्थ को देने 
-वाली पृथ्वी (भूमि) ही है। वह इस लोक में समस्त प्र्रकार के योग, भोग प्र्रदान करने वाली है। पृथ्वी अचला और अक्षय.</p>
-    <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-    </a>
-</div>
-<div class="p-6  max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-red-900 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">भूमि दान योजना 
-</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-stone-100">वर्तमान में 1 गज की सेवा राशि लगभग 21ए000ध- रूपये है। दानदाताओं को 
-संस्था द्वारा भूमिदानप्रमाण स्वरूप निम्नलिखित सम्मान प्रदान किया जाएगा तथा 
-शिलालेख अथवा स्मारिका में नाम प्रकाशित किया जायेगा।</p>
-    <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-    </a>
-</div>
-<div class="p-6  max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-red-900 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">भूमिदान क्यों करना चाहिए</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-stone-100">गरुड़ पुराण के अनुसार पितरों के निमित्त दिए जाने वाले दश महादानों में से एक 
-है- भूमिदान। प्रायः शÕयादान, गोदान, अन्नदान, स्वर्णदान सुलभता से सम्पÂ हो जाते हैं, 
-परन्तु भूमिदान देने के लिये अनुकूल व्यवस्था नहीं हो पाती है।</p>
-    <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-    </a>
-</div>
+    
+    
+      
+      <div class=" relative   ml-10 mt-5" >
+      <button  onClick={()=> setShowMyModal(true)}class=" bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[260px]   right-[370px] " data-modal-toggle="popup-modal" type="button">
+  Read More 
+</button>
+   
 
 
+<button onClick={()=> setModel2(true)} class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[450px]   right-[185px] ">
+  Read More 
+</button>
+<button onClick={()=> setModel3 (true)}class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[445px]  right-[578px] ">
+  Read More 
+</button>
+  <div class="mb-4">
+  
+  <img src={require('../../images/banner.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
   </div>
   
-  <div >
-  <figure class="max-w-sm">
-  <img src={require('../../images/guruji.jpg')} alt="main-logo"  class="w-60 rounded-lg ml-20 mt-4"/>
-  <p class="ml-10  mt-6 mr-10 mb-3 font-normal text-white-700 dark:black-100">विह्ह्रे.ऋ श्री ॰ोविन्दाचार्ऋ  ज ी का स र्म्प ू.ा ज ीवन स ंस्कृत , वं
-स ंस्कृति को स मर्पि त रहा। आप के ज ीवन का उद्देश् ऋ था- श् िा¹ााह् स ेवा
-तथा स ा/ ना।.</p>
-    <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ml-10 mt-2">
-        Read more
-        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-    </a>
-  
-  
-</figure>
+  <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[450px]  right-[340px] ">
+  DONATE NOW
+</button>
 
+<div class="ml-[420px]   -mb-[250px] z-20">
+<ReactPlayer url={'https://www.youtube.com/watch?v=XKCGF0Ixd0A'} width={400} height={250}/>
+</div>
+<ReactPlayer url={'https://www.youtube.com/watch?v=XKCGF0Ixd0A'} width={400} height={250}/>
   </div>
+  
+ 
+<MyModal onClose={handleOnClose} visible={showMyModal}/>
+<MyModal2 onClose={handleOnClose2} visible={Model2}/>
+<MyModal3 onClose={handleOnClose3} visible={Model3}/>
+<MyModal4 onClose={handleOnClose4} visible={Model4}/>
+
+<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[50px] lg:w-80 relative ">
+<div class="mb-4">
+    <img src={require('../../images/guruji.jpg')} class="max-w-full h-auto rounded-full" alt=""/>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
+  
+  <div class="px-6 py-4 ">
+    <div class="font-bold text-xl mb-2">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी </div>
+    <p class="text-gray-700 text-base">
+      
+    विद्वद्वरेण्य श्री गोविन्दाचार्य जी का सम्पूर्ण जीवन संस्कृत एवं संस्कृति को समर्पित रहा। आपके जीवन का उद्देश्य था- शिक्षा, सेवा तथा साधना। </p>
+
+    
+    <button onClick={()=> setModel4 (true)} class="bg-blue-500 hover:bg-blue-700 text-white font-bold  px-[60px] py-2 rounded-full mt-5">
+
+  Read More
+</button>
     
   </div>
+  <div class="px-6 pt-4 pb-2">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#जय श्रीमन्नारायण  </span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुकुल</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुजी </span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#भूमिदान  </span>
+    
+  </div>
+</div>
+  </div>
+       </div>
+
+  </div>
+  
+  
+  
   
   )
 }
