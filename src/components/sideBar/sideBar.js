@@ -1,25 +1,20 @@
-import React from 'react'
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
+import React from 'react';
+import { useState } from 'react';
 import {
     MdOutlineLibraryBooks,
     MdOutlineMedicalServices,
     MdOutlineHome,
-  
-  MdOutlineAnalytics,
-  MdOutlineIntegrationInstructions,
-  MdOutlineMoreHoriz,
-  MdOutlineSettings,
   MdOutlineLogout,
 } from "react-icons/md";
-import { CgProfile ,} from "react-icons/cg";
-import { FaRegComments ,FaHeart,FaHandshake,FaBook,FaCampground} from "react-icons/fa";
+import { FaHeart,FaHandshake,FaBook,FaCampground} from "react-icons/fa";
 import MyModal from './MyModal';
 import MyModal2 from './MyModal2';
 import MyModal3 from './MyModal3';
 import MyModal4 from './MyModal4';
 import ReactPlayer from 'react-player';
-
+import { Switch,Route,Redirect } from 'react-router-dom';
+import { Bhoomi } from '../Pages/Bhoomi';
+import {Navigate} from 'react-router-dom'
 
  const SideBar = () => {
  
@@ -35,6 +30,13 @@ const handleOnClose3 =()=> setModel3(false);
 
 const [Model4 ,setModel4] =useState(false);
 const handleOnClose4 =()=> setModel4(false);
+
+const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
+
+  if(goToBhoomi){
+    return <Navigate to="/bhoomi"/>;
+  }
+
 
   return (
     
@@ -111,24 +113,23 @@ const handleOnClose4 =()=> setModel4(false);
     
       
       <div class=" relative   ml-10 mt-5" >
-      <button  onClick={()=> setShowMyModal(true)}class=" bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[260px]   right-[370px] " data-modal-toggle="popup-modal" type="button">
+      <button  onClick={()=> setGoToBhoomi(true)} class=" bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[258px]   right-[650px] " data-modal-toggle="popup-modal" type="button">
   Read More 
 </button>
    
 
-
-<button onClick={()=> setModel2(true)} class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[450px]   right-[185px] ">
+<button onClick={()=> setModel2(true)} class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[385px]   right-[650px] ">
   Read More 
 </button>
-<button onClick={()=> setModel3 (true)}class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[445px]  right-[578px] ">
+<button onClick={()=> setModel3 (true)}class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[509px]  right-[648px] ">
   Read More 
 </button>
   <div class="mb-4">
   
-  <img src={require('../../images/banner.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
+  <img src={require('../../images/banner3.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
   </div>
   
-  <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[450px]  right-[340px] ">
+  <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[50px]  right-[600px] ">
   DONATE NOW
 </button>
 
@@ -146,7 +147,7 @@ const handleOnClose4 =()=> setModel4(false);
 
 <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[50px] lg:w-80 relative ">
 <div class="mb-4">
-    <img src={require('../../images/guruji.jpg')} class="max-w-full h-auto rounded-full" alt=""/>
+    <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
     <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
   
   <div class="px-6 py-4 ">
