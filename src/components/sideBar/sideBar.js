@@ -112,32 +112,61 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
     
     
       
-      <div class=" relative   ml-10 mt-5" >
-      <button  onClick={()=> setGoToBhoomi(true)} class=" bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[258px]   right-[650px] " data-modal-toggle="popup-modal" type="button">
-  Read More 
-</button>
+      <div class=" relative   ml-10 mt-[-45px]" >
+     
+<a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[208px]   right-[1px]  z-20 relative inline-flex items-center justify-start py-3 pl-4 pr-[100px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-white group">
+<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
+<span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+<svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span class="relative w-full text-2xl transition-colors duration-200 ease-in-out group-hover:text-red-600">भूमिदान </span>
+</a>
    
 
-<button onClick={()=> setModel2(true)} class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[385px]   right-[650px] ">
-  Read More 
-</button>
-<button onClick={()=> setModel3 (true)}class="bg-yellow-300 text-red-600 font-bold py-2 px-4 rounded-full absolute z-10  top-[509px]  right-[648px] ">
-  Read More 
-</button>
+
+   
+
+
   <div class="mb-4">
+    
   
-  <img src={require('../../images/banner3.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
+  <img src={require('../../images/banner1221.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
   </div>
+  <a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[-298px]   right-[1px]  z-30 relative inline-flex items-center justify-start py-3 pl-4 pr-[50px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-white group">
+<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
+<span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+<svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span class="relative text-[20px]  transition-colors duration-200 ease-in-out group-hover:text-red-600 ml-[1px]">श्रीनिवास सेवार्थ न्यास  </span>
+</a>
+
   
   <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[50px]  right-[600px] ">
   DONATE NOW
 </button>
 
 <div class="ml-[420px]   -mb-[250px] z-20">
+<a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[-228px]   right-[423px]  z-30 relative inline-flex items-center justify-start py-3 pl-4 pr-[50px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-white group">
+<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
+<span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+<svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span class="relative text-[18px] transition-colors duration-200 ease-in-out group-hover:text-red-600 ">श्रीनिवास संस्कृत विद्यापीठम  </span>
+</a>
 <ReactPlayer url={'https://www.youtube.com/watch?v=XKCGF0Ixd0A'} width={400} height={250}/>
 </div>
 <ReactPlayer url={'https://www.youtube.com/watch?v=XKCGF0Ixd0A'} width={400} height={250}/>
   </div>
+  
   
  
 <MyModal onClose={handleOnClose} visible={showMyModal}/>
