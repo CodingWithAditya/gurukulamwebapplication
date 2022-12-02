@@ -4,6 +4,7 @@ import SideBar from './components/sideBar/sideBar';
 import { BrowserRouter as Router, Routes, Route, Switch  } from 'react-router-dom';
 import './App.css';
 import { Bhoomi } from './components/Pages/Bhoomi';
+import { Footer } from './components/Footer/footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       </Router>
 
     </div>
+    <Footer/>
     </>
     
   );
