@@ -15,6 +15,7 @@ import ReactPlayer from 'react-player';
 import { Switch,Route,Redirect } from 'react-router-dom';
 import { Bhoomi } from '../Pages/Bhoomi';
 import {Navigate} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
  const SideBar = () => {
  
@@ -25,7 +26,7 @@ const handleOnClose = () => setShowMyModal(false)
 const [Model2 , setModel2 ] =useState(false);
 const handleOnClose2=()=> setModel2(false);
 
-const [Model3 ,setModel3] =useState(false);
+const [Model3 ,setModel3] =useState(false); 
 const handleOnClose3 =()=> setModel3(false);
 
 const [Model4 ,setModel4] =useState(false);
@@ -38,16 +39,18 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
   }
 
 
-  return (
+  return (  
     
     <div class="flex items-start w-full	 relative"	>
       
     
       <div className="  border-2 border-gray-100 p-6 w-3/4 h-max bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
-          <h1 className="text-2xl text-center cursor-pointer font-bold text-red-700 border-b border-gray-100 pb-4 w-full">
-         जय श्रीमन्नारायण 
+          <h1  className="text-2xl text-center cursor-pointer font-bold text-red-700 border-b border-gray-100 pb-4 w-full" >
+          जय श्रीमन्नारायण
+          
           </h1>
+         
           <div className=" my-4 border-b border-gray-100 pb-4">
             <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineHome className="text-3xl text-gray-600 group-hover:text-white " />
@@ -56,9 +59,12 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
               </h3>
             </div>
             <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              
               <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
+
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                गुरुकुल 
+              
+               <Link to="/gurukul">गुरुकुल </Link>
               </h3>
             </div>
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
@@ -217,7 +223,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 
 
   
-    
+      
 
   
 
