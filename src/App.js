@@ -25,6 +25,8 @@ function App() {
           <Route path="/"  element ={<SideBar/>}/>
           <Route path="/bhoomi" element={<Bhoomi/>}/>
           <Route path="/gurukul" element={<Gurukul/>}/>
+          <Route path="/gaushala" element={<Gaushala/>}/>
+
           <Route path="/privacy" element={<Privacy/>}/>
         <Route path="/heartclinic" element={<Heart/>}/>
         <Route path="/ayurvedicclinic" element={<Ayurvedic/>}/>
