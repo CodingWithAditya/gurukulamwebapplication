@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/navBar';
 import SideBar from './components/sideBar/sideBar';
+import { GlobalStyle } from './gobalStyles';
 
 import { BrowserRouter as Router, Routes, Route, Switch  } from 'react-router-dom';
 import './App.css';
@@ -13,11 +14,15 @@ import { Ayurvedic } from './components/Pages/ayurvedic';
 import { Prakashan } from './components/Pages/prakashan';
 import { Samajik } from './components/Pages/samajik';
 import { Blog } from './components/Pages/blog';
+import { Suspense } from 'react';
 
 function App() {
   return (
     <>
+    <Suspense fallback={null}>
+      <GlobalStyle/>
   <Navbar/>
+
    <div >
       <Router>
         <Routes>
@@ -41,7 +46,9 @@ function App() {
       </Router>
 
     </div>
+    
     <Footer/>
+    </Suspense>
     </>
     
   );
