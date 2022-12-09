@@ -90,8 +90,22 @@ export const Ayurvedic = () => {
               </div>
             </div>
           </div>
-          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[29px] lg:w-80 relative ">
+          <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+        <div class="  flex flex-col  w-full mb-10">
+          <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
+          <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">धर्मार्थ आयुर्वेदिक औषधालय</h1>
+          <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">निःशुल्क रोगोपचार हेतु धर्मार्थ आयुर्वेदिक औषधालय संचालित है। देश के प्रतिष्ठित वैद्य श्री वीरेन्द्र शाह जी के मार्गनिर्देशन में प्रतिदिन 100 से अधिक रोगी लाभ प्राप्त करते हैं। रोगोपचार हेतु आये सभी लोगों को वैद्य-परामर्श तथा औषधियाँ निःशुल्क ही प्रदान की जाती है। </p>
+          <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+         
+        </div>
+        
+       
+        
+        
+      </div>
       
+          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[1px] lg:w-80 relative ">
+    
     <div class="mb-4">
         <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">

@@ -8,7 +8,11 @@ import {
 import { FaHeart,FaHandshake,FaBook,FaCampground, FaBlog} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
+
+const featuredImages = ["src/images/041.jpg", 
+"src/images/041.jpg", 'img-3'];
 export const Gaushala = () => {
+  
   return (
     <div class="flex items-start w-full	 relative"	>
 
@@ -90,56 +94,93 @@ export const Gaushala = () => {
               </div>
             </div>
           </div>
-
-          <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-    </div>
-    <div class="flex flex-wrap">
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
-        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
-        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
-        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
-        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          
+          
+          <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+          <div
+  id="carouselExampleCrossfade"
+  class="carousel slide carousel-fade relative"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCrossfade"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCrossfade"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCrossfade"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
   </div>
-
-          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[29px] lg:w-80 relative ">
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active float-left w-full">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+        class="block w-full"
+        alt="Wild Landscape"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+        class="block w-full"
+        alt="Camera"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        class="block w-full"
+        alt="Exotic Fruits"
+      />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    type="button"
+    data-bs-target="#carouselExampleCrossfade"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    type="button"
+    data-bs-target="#carouselExampleCrossfade"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <div class="  flex flex-col  w-full mb-10">
+          <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
+          <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास गौशाला</h1>
+          <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">कामधेनु वंश की गौमाताओं की सेवा हेतु एक गौशाला संचालित है। गौशाला का मुख्य उद्देश्य गुरुकुल में पढने वाले बालकों के लिये गोदुग्ध का पोषण प्राप्त हो। वर्तमान में अभी 30 के लगभग गोवंश हैं।</p>
+          <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+        
+        </div>
+        
+       
+        
+        
+      </div>
       
+          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[1px] lg:w-80 relative ">
+    
     <div class="mb-4">
         <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">

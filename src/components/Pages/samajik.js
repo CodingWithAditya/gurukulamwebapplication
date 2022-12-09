@@ -90,8 +90,35 @@ export const Samajik = () => {
               </div>
             </div>
           </div>
-          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[29px] lg:w-80 relative ">
+          <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+        <div class="  flex flex-col  w-full mb-10">
+          <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
+          <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">संचालित उल्लेखनीय गतिविधियाँ</h1>
+          <p class=" mx-auto justify-between text-justify leading-[50px] text-2xl">1.	आठ वर्ष से लेकर बीस वर्ष तक के बालकों को गुरुकुलीय परम्परानुसार वेद, वेदांग, व्याकरण, वेदान्त, कर्मकाण्ड, ज्योतिष, संगीत, अंग्रेजी, कम्प्यूटर 	आदि की विभिÂ स्थानों में गुरुकुल के माध्यम से निःशुल्क शिक्षा। <br></br>
+2.	निःशुल्क रोगोपचार हेतु धर्मार्थ आयुर्वेदिक औषधालय संचालित है जिसमें प्रतिदिन 100 से अधिक रोगी लाभ प्राप्त करते हैं।<br></br>
+3.	निःशुल्क रोगोपचार हेतु श्रीनिवास हृदयरोग चिकित्सा केन्द्र संचालित है।<br></br>
+4.	कामधेनु वंश की गौमाताओं की सेवा हेतु एक गौशाला संचालित है।<br></br>
+5.	गरीब कन्याओं के विवाहार्थ यथासम्भव सहयोग।<br></br>
+6.	गरीब बालकों के अध्ययनार्थ स्कूल फीस, पुस्तक-कॉपी तथा अन्य पाठड्ढसामग्री प्रदान करना।<br></br>
+7.	साहित्यिक एवं धार्मिक ग्रन्थों का प्रकाशन।<br></br>
+8.	संस्कृत समाचार पत्र संस्कृतवाणी का प्रकाशन।<br></br>
+9.	संस्कृत के क्षेत्र में उल्लेखनीय कार्य करने वाले विद्वानों को पुरस्कृत करना।<br></br>
+10.	निर्धन असहाय छात्रें को छात्रवृत्ति।<br></br>
+11.	प्रौढ व्यक्तियों को संस्कृत भाषा हेतु संस्कृत शिविर का संचालन।<br></br>
+12.	आधुनिक विद्यालय के छात्रें को संस्कृत-सम्भाषण प्रशिक्षण।<br></br>
+13.	योगासन, प्राणायाम आदि की शिक्षा एवं प्रशिक्षण तथा शिबिर संचालन करना।<br></br>
+</p>
+          <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+        
+        </div>
+        
+       
+        
+        
+      </div>
       
+          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[1px] lg:w-80 relative ">
+    
     <div class="mb-4">
         <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
