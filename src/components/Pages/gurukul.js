@@ -23,60 +23,83 @@
             <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineHome className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                होम  
+              <Link to="/">होम </Link>
+                  
               </h3>
             </div>
+                   
+            <Link to="/gurukul">
             <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               
               <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
 
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-              
-               <Link to="/gurukul">गुरुकुल </Link>
+       गुरुकुल
               </h3>
             </div>
+            </Link>
+            <Link to="/gaushala">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
             <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                <Link to="/gaushala">गौशाला</Link>
+              गौशाला
                  </h3>
             </div>
+            </Link>
+            <Link to="/ayurvedicclinic">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineMedicalServices className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                आयुर्वेदिक  औषधालय 
+               आयुर्वेदिक  औषधालय 
+
               </h3>
             </div>
+            </Link>
+            <Link to="/heartclinic">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaHeart className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                हार्ट क्लिनिक  
+                 हार्ट क्लिनिक  
+
               </h3>
             </div>
+            </Link>
+            <Link to="/samajik">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaHandshake className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                अन्य सामाजिक प्रकल्प 
+                 अन्य सामाजिक प्रकल्प  
+
+                 
               </h3>
             </div>
+            </Link>
+            <Link to="/prakashan">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaBook className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                प्रकाशन 
+             प्रकाशन
+           
               </h3>
             </div>
+            </Link>
+            <Link to="/bhoomidaan">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaCampground  className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                भूमिदान  
+            भूमिदान  
               </h3>
             </div>
+            </Link>
+            <Link to="/blog">
             <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaBlog  className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                ब्लॉग   
+              ब्लॉग
+                   
               </h3>
             </div>
+            </Link>
           </div>
        
           {/* logout */}

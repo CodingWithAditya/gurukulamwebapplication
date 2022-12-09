@@ -15,6 +15,7 @@ import { Prakashan } from './components/Pages/prakashan';
 import { Samajik } from './components/Pages/samajik';
 import { Blog } from './components/Pages/blog';
 import { Suspense } from 'react';
+import { Bhoomidaan } from './components/Pages/bhoomidaan';
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
         <Route path="/ayurvedicclinic" element={<Ayurvedic/>}/>
         <Route path="/prakashan" element={<Prakashan/>}/>
         <Route path="/samajik" element={<Samajik/>}/>
-        <Route path="/bhoomidaan" element={<Bhoomi/>}/>
+        <Route path="/bhoomidaan" element={<Bhoomidaan/>}/>
         <Route path="/blog" element={<Blog/>}/>
 
 
