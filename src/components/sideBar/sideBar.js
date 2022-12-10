@@ -115,7 +115,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
               </h3>
             </div>
             </Link>
-            <Link to="/bhoomi">
+            <Link to="/bhoomidaan">
             <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaCampground  className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
@@ -169,7 +169,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
   <div class="mb-4">
     
   
-  <img src={require('../../images/banner1221.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
+  <img src={require('../../images/bannerguru.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
   </div>
   <a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[-298px]   right-[1px]  z-30 relative inline-flex items-center justify-start py-3 pl-4 pr-[50px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-white group">
 <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
@@ -192,7 +192,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 <span class="relative text-[18px] transition-colors duration-200 ease-in-out group-hover:text-red-600 ">श्रीनिवास संस्कृत विद्यापीठम  </span>
 </a>
   
-  <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[50px]  right-[600px] ">
+  <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[100px]  right-[600px] ">
     
   DONATE NOW
 </button>
