@@ -120,52 +120,7 @@ export const Gaushala = () => {
           
           
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
-          <div
-  id="carouselExampleCrossfade"
-  class="carousel slide carousel-fade relative"
-  data-bs-ride="carousel"
->
-  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item active float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-        class="block w-full"
-        alt="Wild Landscape"
-      />
-    </div>
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-    
-  </div>
-  
-</div>
+          
         <div class="  flex flex-col  w-full mb-10">
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास गौशाला</h1>
