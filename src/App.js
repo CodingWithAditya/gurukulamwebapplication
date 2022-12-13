@@ -15,7 +15,9 @@ import { Prakashan } from './components/Pages/prakashan';
 import { Samajik } from './components/Pages/samajik';
 import { Blog } from './components/Pages/blog';
 import { Suspense } from 'react';
-import { Bhoomidaan } from './components/Pages/bhoomidaan';
+import { Bhoomidaan, Bhoomidaan2 } from './components/Pages/bhoomidaan2';
+import { Bhoomidaan1 } from './components/Pages/bhoomidaan1';
+import { Bhoomidaan3 } from './components/Pages/bhoomidaan3';
 
 function App() {
   return (
@@ -38,8 +40,11 @@ function App() {
         <Route path="/ayurvedicclinic" element={<Ayurvedic/>}/>
         <Route path="/prakashan" element={<Prakashan/>}/>
         <Route path="/samajik" element={<Samajik/>}/>
-        <Route path="/bhoomidaan" element={<Bhoomidaan/>}/>
+        <Route path="/bhoomidaan-ka-mahtv" element={<Bhoomidaan2/>}/>
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/bhoomidaan-yojana" element={<Bhoomidaan1/>}/>
+        <Route path="/bhoomidaan-kyon-karna-chahiye" element={<Bhoomidaan3/>}/>
+       
 
 
 
