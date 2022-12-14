@@ -115,14 +115,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
               </h3>
             </div>
             </Link>
-            <Link to="/bhoomidaan">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaCampground  className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-            भूमिदान  
-              </h3>
-            </div>
-            </Link>
+           
             <Link to="/blog">
             <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaBlog  className="text-3xl text-gray-600 group-hover:text-white " />
