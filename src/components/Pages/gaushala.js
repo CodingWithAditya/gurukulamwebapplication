@@ -122,6 +122,13 @@ export const Gaushala = () => {
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
           
         <div class="  flex flex-col  w-full mb-10">
+        <div class="flex flex-wrap justify-center">
+  <img
+ src={require('../../images/Gaushala.JPG')}
+  class="p-1 bg-white border rounded w-[750px] h-[450px] mb-2"
+  alt="..."
+/>
+</div>
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास गौशाला</h1>
           <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">कामधेनु वंश की गौमाताओं की सेवा हेतु एक गौशाला संचालित है। गौशाला का मुख्य उद्देश्य गुरुकुल में पढने वाले बालकों के लिये गोदुग्ध का पोषण प्राप्त हो। वर्तमान में अभी 30 के लगभग गोवंश हैं।</p>
