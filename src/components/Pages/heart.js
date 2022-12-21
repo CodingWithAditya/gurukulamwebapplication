@@ -115,6 +115,13 @@ export const Heart = () => {
       </div>
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
         <div class="  flex flex-col  w-full mb-10">
+        <div class="flex flex-wrap justify-center">
+  <img
+ src={require('../../images/heart.JPG')}
+  class="p-1 bg-white border rounded w-[750px] h-[450px] mb-2"
+  alt="..."
+/>
+</div>
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास हृदयरोग चिकित्सा केन्द्र  </h1>
           <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">देश के प्रतिष्ठित हृदयरोग विशेषज्ञ डॉ-एन-सी-कृष्णमणि जी के निर्देशन में प्रत्येक शनिवार को गरीब एवं निर्धन हृदयरोगियों के लिये निःशुल्क चिकित्सा की सेवा की जाती है। निःशुल्क चिकित्सा परामर्श के साथ-साथ निःशुल्क इको, इसीजी इत्यादि टेस्ट भी किये जाते हैं।  </p>
@@ -134,6 +141,7 @@ export const Heart = () => {
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
       
       <div class="px-6 py-4 ">
+        
         <div class="font-bold text-xl mb-2">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी </div>
         <p class="text-gray-700 text-base">
           
