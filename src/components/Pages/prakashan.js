@@ -117,7 +117,7 @@ export const Prakashan = () => {
         <div class="  flex flex-col  w-full mb-10">
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">स्वामी गोविन्दाचार्य जी द्वारा लिखित तथा </h1>
-          <p class=" mx-auto justify-between text-justify leading-[50px] text-2xl">1.	पाणिनीय व्याकरणस्यैतिहासिकं परिशीलनम् (संस्कृत में)	<br></br>
+          <p class=" mx-auto justify-between text-justify leading-[50px] text-xl">1.	पाणिनीय व्याकरणस्यैतिहासिकं परिशीलनम् (संस्कृत में)	<br></br>
 2. 	 नित्यानुसन्धानम् (हिन्दी अनुवाद सहित)<br></br>
 3.	वैयाकरणसिद्धान्तकौमुदी की श्रीधरमुखोल्लासिनी हिन्दी विस्तृत व्याख्या 
 	(6 भागों में प्रकाशित, 7वाँ प्रेस में)<br></br>
@@ -183,36 +183,7 @@ export const Prakashan = () => {
         
       </div>
       
-          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[1px] lg:w-80 relative ">
-    
-    <div class="mb-4">
-        <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
-      
-      <div class="px-6 py-4 ">
-        <div class="font-bold text-xl mb-2">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी </div>
-        <p class="text-gray-700 text-base">
-          
-        विद्वद्वरेण्य श्री गोविन्दाचार्य जी का सम्पूर्ण जीवन संस्कृत एवं संस्कृति को समर्पित रहा। आपके जीवन का उद्देश्य था- शिक्षा, सेवा तथा साधना। </p>
-    
         
-        <button  class="bg-blue-500 hover:bg-blue-700 text-white font-bold  px-[60px] py-2 rounded-full mt-5">
-    
-      Read More
-    </button>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#जय श्रीमन्नारायण  </span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुकुल</span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुजी </span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#भूमिदान  </span>
-        
-      </div>
-      
-    </div>
-    </div>
-    </div>
             </div>
   )
 }

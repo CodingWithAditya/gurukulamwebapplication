@@ -124,7 +124,7 @@ export const Heart = () => {
 </div>
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास हृदयरोग चिकित्सा केन्द्र  </h1>
-          <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">देश के प्रतिष्ठित हृदयरोग विशेषज्ञ डॉ-एन-सी-कृष्णमणि जी के निर्देशन में प्रत्येक शनिवार को गरीब एवं निर्धन हृदयरोगियों के लिये निःशुल्क चिकित्सा की सेवा की जाती है। निःशुल्क चिकित्सा परामर्श के साथ-साथ निःशुल्क इको, इसीजी इत्यादि टेस्ट भी किये जाते हैं।  </p>
+          <p class=" mx-auto justify-between text-justify leading-relaxed text-xl">देश के प्रतिष्ठित हृदयरोग विशेषज्ञ डॉ-एन-सी-कृष्णमणि जी के निर्देशन में प्रत्येक शनिवार को गरीब एवं निर्धन हृदयरोगियों के लिये निःशुल्क चिकित्सा की सेवा की जाती है। निःशुल्क चिकित्सा परामर्श के साथ-साथ निःशुल्क इको, इसीजी इत्यादि टेस्ट भी किये जाते हैं।  </p>
           <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
          
         </div>
@@ -134,37 +134,7 @@ export const Heart = () => {
         
       </div>
       
-          <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[1px] lg:w-80 relative ">
-    
-    <div class="mb-4">
-        <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
-      
-      <div class="px-6 py-4 ">
-        
-        <div class="font-bold text-xl mb-2">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी </div>
-        <p class="text-gray-700 text-base">
-          
-        विद्वद्वरेण्य श्री गोविन्दाचार्य जी का सम्पूर्ण जीवन संस्कृत एवं संस्कृति को समर्पित रहा। आपके जीवन का उद्देश्य था- शिक्षा, सेवा तथा साधना। </p>
-    
-        
-        <button  class="bg-blue-500 hover:bg-blue-700 text-white font-bold  px-[60px] py-2 rounded-full mt-5">
-    
-      Read More
-    </button>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#जय श्रीमन्नारायण  </span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुकुल</span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुजी </span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#भूमिदान  </span>
-        
-      </div>
-      
-    </div>
-    </div>
-    </div>
+       
             </div>
   )
 }
