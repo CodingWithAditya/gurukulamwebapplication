@@ -18,6 +18,8 @@ import { Suspense } from 'react';
 import { Bhoomidaan, Bhoomidaan2 } from './components/Pages/bhoomidaan2';
 import { Bhoomidaan1 } from './components/Pages/bhoomidaan1';
 import { Bhoomidaan3 } from './components/Pages/bhoomidaan3';
+import { Gurukul1 } from './components/Pages/gurukul1';
+import { Gurukul2 } from './components/Pages/gurukul2';
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/bhoomidaan-yojana" element={<Bhoomidaan1/>}/>
         <Route path="/bhoomidaan-kyon-karna-chahiye" element={<Bhoomidaan3/>}/>
+        <Route path="/sewarth-nyas" element={<Gurukul1/>}/>
+        <Route path="/sanskrit-vidyapeetham" element={<Gurukul2/>}/>
        
 
 
