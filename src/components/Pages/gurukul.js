@@ -198,7 +198,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
   <br></br>
   <div class="relative justify-center ml-32">
   <button type="button" class=" inline-block px-[50px] py-2 ml-[350px] bg-orange-600   text-white font-bold text-2xl leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">नम्र निवेदन </button>
-  <div class="block p-2 rounded-lg shadow-2xl bg-yellow-200 w-[1000px] mb-10">
+  <div class="block p-2 rounded-lg shadow-xl bg-yellow-200 w-[1000px] mb-10">
   
 
     <p class="text-blue-700 font-medium text-l mb-4">
