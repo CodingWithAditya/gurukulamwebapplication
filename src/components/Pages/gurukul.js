@@ -267,14 +267,12 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
   </div>
 </div> 
 
-	1- जून 1999 से लेकर दिसम्बर 2017 तक श्रीगोविन्दाचार्यजी के मार्गदर्शन, संस्थापकत्व एवं संचालकत्व में संचालित विभिन्न शिक्षण संस्थाओं की प्रगति यह है कि 7 छात्र चीफ (विद्यावारिधि) की उपाधि प्राप्त कर चुके हैं। लगभग 50 छात्र शोध में पंजीकृत हैं। 100 से अधिक छात्र (ठण्मक) (शिक्षाशास्त्री) कर चुके हैं और कई छात्र अभी प्रशिक्षणरत हैं। इसी तरह 200 से ज्यादा छात्रें ने आचार्य  की उपाधि प्राप्त कर ली है और अभी 300 से अधिक छात्र विभिन्न कक्षाओं में अध्ययनरत हैं। मुख्यशाखा दिल्ली की है और इसमें सबसे अधिक लगभग 70 छात्र होते हैं।   <br></br>  <br></br>
-	2- यहाँ के विद्यार्थियों ने राज्यीय, राष्ट्रिय, अखिल भारतीय स्तर पर  आयोजित शलाका परीक्षा, भाषण प्रतियोगिता, श्लोकान्त्याक्षरी प्रतियोगिता, सूत्रन्त्याक्षरी प्रतियोगिता, वाद-विवाद प्रतियोगिता, एकल श्लोकसंगीत प्रतियोगिता, नुक्कड़ नाटक आदि विभिन्न कार्यक्रमों में भाग ग्रहण कर प्रथम, द्वितीय आदि स्थानों को प्राप्त कर गौरवान्वित किया है। <br></br>  <br></br>
-	3- यहाँ से पढे हुये छात्रें ने विभिन्न  विश्वविद्यालयों में जाकर बी-ए तथा एम-ए इत्यादि कक्षाओं में अनेक स्वर्णपदक प्राप्त किये हैं।  <br></br>  <br></br>
-	4- यहाँ से शिक्षा प्राप्त किये हुये अनेक छात्र भारत तथा नेपाल, अमेरिका इत्यादि देशों में विभिन्न विश्वविद्यालयों में प्राफेसर, लेक्चरर इत्यादि पदों पर रहकर संस्कृत एवं संस्कृति प्रचार प्रसार में संलग्न है। <br></br> <br></br>
+	
 </p>
       
        <button class="flex mx-auto mt-[10px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
        
+
        <h2 class="text-[10px] text-center mt-12 text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
       <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">गुरुकुल एवं छात्रें की संयुक्त समय-सारिणी </h1>
      
@@ -300,6 +298,76 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 19.	इस तरह प्रतिदिन भगवान् को आठ बार भोग लगाया जाता है।<br></br><br></br>
 20.	रात्रि 9 बजे दुग्धपान करके छोटे छात्र सो जाते हैं और और बड़े छात्र 10 बजे शयन करते हैं।<br></br><br></br>
 </p>
+<a href="#_" class="px-[30px] ml-[250px] py-2.5 w-[700px] relative rounded group overflow-hidden font-medium bg-purple-600 text-white inline-block">
+<span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-800 group-hover:h-full opacity-90"></span>
+<span class="relative group-hover:text-white"> भोजन आदि व्यवस्था का व्यय-विवरण ,छात्र, अध्यापक, कर्मचारी एवं सन्तों की संख्या-100
+</span>
+</a>
+<div class="flex flex-col">
+
+  <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+      <div class="overflow-hidden">
+        <table class="min-w-full">
+          <thead class="bg-white border-b">
+            <tr>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                First
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Last
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Handle
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Mark
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Otto
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @mdo
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Jacob
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Thornton
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @fat
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3</td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Larry
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Wild
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @twitter
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     
    
