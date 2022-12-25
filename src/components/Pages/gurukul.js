@@ -198,11 +198,11 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
   <br></br>
   <div class="relative justify-center ml-32">
   <button type="button" class=" inline-block px-[50px] py-2 ml-[350px] bg-orange-600   text-white font-bold text-2xl leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">नम्र निवेदन </button>
-  <div class="block p-2 rounded-lg shadow-2xl bg-yellow-200 w-[1000px] mb-10">
+  <div class="block p-2 rounded-lg shadow-2xl bg-yellow-100 w-[1000px] mb-10">
   
 
-    <p class="text-black font-medium text-l mb-4">
-    एक बच्चे की शिक्षा, भोजन, वस्त्र आदि में मासिक पच्चीस सौ रूपये (3100) का खर्च आता है। अतः सभी लक्ष्मीकृपासम्पन्न श्रद्धालु महानुभावों से निवेदन है कि एक या एक से अधिक बच्चों का खर्च वहन करके भारतीय संस्कृति एवं हमारे ट्टषि महर्षि द्वारा प्रदत्त ज्ञान परम्परा के आधारभूत शास्त्रें की रक्षा कर धार्मिक एवं सामाजिक कार्य के सहयोगी बन अक्षय पुण्य के भागी बनें। यह कार्य अकेले या अनेक व्यक्ति मिलकर कर सकते हैं।
+    <p class="text-blue-700 font-medium text-l mb-4">
+    एक बच्चे की शिक्षा, भोजन, वस्त्र आदि में मासिक पच्चीस सौ रूपये  (<b>3100</b>) का खर्च आता है। अतः सभी लक्ष्मीकृपासम्पन्न श्रद्धालु महानुभावों से निवेदन है कि एक या एक से अधिक बच्चों का खर्च वहन करके भारतीय संस्कृति एवं हमारे ट्टषि महर्षि द्वारा प्रदत्त ज्ञान परम्परा के आधारभूत शास्त्रें की रक्षा कर धार्मिक एवं सामाजिक कार्य के सहयोगी बन अक्षय पुण्य के भागी बनें। यह कार्य अकेले या अनेक व्यक्ति मिलकर कर सकते हैं।
     </p>
     
   </div>
