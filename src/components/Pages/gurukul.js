@@ -209,7 +209,63 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 </div>
 
 	यहाँ के छात्रें की उपलब्धियाँ - <br></br>  <br></br>
-  
+  <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
+  <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">
+    <img class=" w-full h-[200px] md:h-auto object-cover md:w-[400px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.postimg.cc/qq0LwSVG/DSC-0046.jpg" alt="" />
+    <div class="p-6 flex flex-col justify-start">
+     
+      <p class="text-gray-700 text-xl  leading-relaxed mb-4">
+      जून 1999 से लेकर दिसम्बर 2017 तक श्रीगोविन्दाचार्यजी के मार्गदर्शन, संस्थापकत्व एवं संचालकत्व में संचालित विभिन्न शिक्षण संस्थाओं की प्रगति यह है कि 7 छात्र चीफ (विद्यावारिधि) की उपाधि प्राप्त कर चुके हैं। लगभग 50 छात्र शोध में पंजीकृत हैं। 100 से अधिक छात्र (ठण्मक) (शिक्षाशास्त्री) कर चुके हैं और कई छात्र अभी प्रशिक्षणरत हैं। इसी तरह 200 से ज्यादा छात्रें ने आचार्य  की उपाधि प्राप्त कर ली है और अभी 300 से अधिक छात्र विभिन्न कक्षाओं में अध्ययनरत हैं। मुख्यशाखा दिल्ली की है और इसमें सबसे अधिक लगभग 70 छात्र होते हैं।   
+      </p>
+      <button class="flex mx-auto mt-[10px] ml-[1px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+       
+    </div>
+  </div>
+</div>
+<div class="flex justify-center mb-10">
+ 
+  <div class="flex justify-cente  transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://i.postimg.cc/gj9ZcbSy/adsdsada.png" alt=""/>
+    </a>
+    <div class="p-6">
+
+      <p class="text-gray-700 text-lg break-normal	 mb-4">
+      यहाँ के विद्यार्थियों ने राज्यीय, राष्ट्रिय, अखिल भारतीय स्तर पर  आयोजित शलाका परीक्षा, भाषण प्रतियोगिता, श्लोकान्त्याक्षरी प्रतियोगिता, सूत्रन्त्याक्षरी प्रतियोगिता, वाद-विवाद प्रतियोगिता, एकल श्लोकसंगीत प्रतियोगिता, नुक्कड़ नाटक आदि विभिन्न कार्यक्रमों में भाग ग्रहण कर प्रथम, द्वितीय आदि स्थानों को प्राप्त कर गौरवान्वित किया है। 
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Donate Now</button>
+    </div>
+  </div>
+</div>
+<div class="flex justify-center ml-5 transform transition duration-500 hover:scale-105 ">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://i.postimg.cc/65cHjWQ4/DSC-0037.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+   
+      <p class="text-gray-700 text-lg mb-4">
+      यहाँ से पढे हुये छात्रें ने विभिन्न  विश्वविद्यालयों में जाकर बी-ए तथा एम-ए इत्यादि कक्षाओं में अनेक स्वर्णपदक प्राप्त किये हैं।
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Donate Now</button>
+    </div>
+  </div>
+</div>
+ 
+  <div class="rounded-lg shadow-lg ml-5 bg-white max-w-sm transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://i.postimg.cc/yNtpmL8f/DSC-0026.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      
+      <p class="text-gray-700 text-lg mb-4">
+      यहाँ से शिक्षा प्राप्त किये हुये अनेक छात्र भारत तथा नेपाल, अमेरिका इत्यादि देशों में विभिन्न विश्वविद्यालयों में प्राफेसर, लेक्चरर इत्यादि पदों पर रहकर संस्कृत एवं संस्कृति प्रचार प्रसार में संलग्न है। 
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Donate Now</button>
+    </div>
+  </div>
+</div> 
 
 	1- जून 1999 से लेकर दिसम्बर 2017 तक श्रीगोविन्दाचार्यजी के मार्गदर्शन, संस्थापकत्व एवं संचालकत्व में संचालित विभिन्न शिक्षण संस्थाओं की प्रगति यह है कि 7 छात्र चीफ (विद्यावारिधि) की उपाधि प्राप्त कर चुके हैं। लगभग 50 छात्र शोध में पंजीकृत हैं। 100 से अधिक छात्र (ठण्मक) (शिक्षाशास्त्री) कर चुके हैं और कई छात्र अभी प्रशिक्षणरत हैं। इसी तरह 200 से ज्यादा छात्रें ने आचार्य  की उपाधि प्राप्त कर ली है और अभी 300 से अधिक छात्र विभिन्न कक्षाओं में अध्ययनरत हैं। मुख्यशाखा दिल्ली की है और इसमें सबसे अधिक लगभग 70 छात्र होते हैं।   <br></br>  <br></br>
 	2- यहाँ के विद्यार्थियों ने राज्यीय, राष्ट्रिय, अखिल भारतीय स्तर पर  आयोजित शलाका परीक्षा, भाषण प्रतियोगिता, श्लोकान्त्याक्षरी प्रतियोगिता, सूत्रन्त्याक्षरी प्रतियोगिता, वाद-विवाद प्रतियोगिता, एकल श्लोकसंगीत प्रतियोगिता, नुक्कड़ नाटक आदि विभिन्न कार्यक्रमों में भाग ग्रहण कर प्रथम, द्वितीय आदि स्थानों को प्राप्त कर गौरवान्वित किया है। <br></br>  <br></br>
