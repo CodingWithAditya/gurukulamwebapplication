@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar/navBar';
 import SideBar from './components/sideBar/sideBar';
 import { GlobalStyle } from './gobalStyles';
-
+import ReactGA from "react-ga";
 import { BrowserRouter as Router, Routes, Route, Switch  } from 'react-router-dom';
 import './App.css';
 import { Bhoomi } from './components/Pages/Bhoomi';
@@ -20,6 +20,8 @@ import { Bhoomidaan1 } from './components/Pages/bhoomidaan1';
 import { Bhoomidaan3 } from './components/Pages/bhoomidaan3';
 import { Gurukul1 } from './components/Pages/gurukul1';
 import { Gurukul2 } from './components/Pages/gurukul2';
+
+
 
 function App() {
   return (

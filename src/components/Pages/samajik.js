@@ -113,6 +113,193 @@ export const Samajik = () => {
         </div>
       </div>
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+          <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-indicators absolute right-10 bottom-0 left-0 flex justify-center p-0 mb-4">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="3"
+      aria-label="Slide 4"
+    ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="4"
+      aria-label="Slide 5"
+    ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="5"
+      aria-label="Slide 6"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="6"
+      aria-label="Slide 7"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="7"
+      aria-label="Slide 8"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="8"
+      aria-label="Slide 9"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="9"
+      aria-label="Slide 10"
+    ></button>
+            <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="10"
+      aria-label="Slide 11"
+    ></button>
+            <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="11"
+      aria-label="Slide 12"
+    ></button>
+  </div>
+  <div class="carousel-inner relative w-full ml-48 mb-2 overflow-hidden">
+    <div class="carousel-item active float-left w-full">
+      <img
+        src="https://i.postimg.cc/9frNw6CR/DSC-0021.jpg"
+        class="block w-[800px] h-[500px] rounded-3xl"
+        alt="Gaushala 1"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/cH39XfKd/DSC-0024.jpg"
+        class="block w-[800px] h-[500px] rounded-3xl"
+        alt="Gaushala 2"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/yNtpmL8f/DSC-0026.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 3"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/ncpRGjnt/DSC-0028.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 4"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/HWQvM4D2/DSC-0030.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 5"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/VkNK2xSG/DSC-0034.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 6"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/65cHjWQ4/DSC-0037.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 7"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/4yb8TZbM/DSC-0038.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 8"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/RZbgmgKM/DSC-0040.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 9"
+      />
+      
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/nLyTjM3g/DSC-0041.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 10"
+      />
+      
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/63CcdwS3/DSC-0044.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 11"
+      />
+      
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/qq0LwSVG/DSC-0046.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 12"
+      />
+      
+    </div>
+    
+  </div>
+  <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-[190px]"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat mr-32" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-[110px]"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon  inline-block bg-no-repeat mr-32" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
         <div class="  flex flex-col  w-full mb-10">
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">संचालित उल्लेखनीय गतिविधियाँ</h1>

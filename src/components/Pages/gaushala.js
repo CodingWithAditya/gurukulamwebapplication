@@ -7,10 +7,8 @@ import {
 } from "react-icons/md";
 import { FaHeart,FaHandshake,FaBook,FaCampground, FaBlog} from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
-
-const featuredImages = ["src/images/041.jpg", 
-"src/images/041.jpg", 'img-3'];
+import 'tw-elements';
+ 
 export const Gaushala = () => {
   
   return (
@@ -122,12 +120,167 @@ export const Gaushala = () => {
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
           
         <div class="  flex flex-col  w-full mb-10">
-        <div class="flex flex-wrap justify-center">
-  <img
- src={require('../../images/Gaushala.JPG')}
-  class="p-1 bg-white border rounded w-[750px] h-[450px] mb-2"
-  alt="..."
-/>
+       
+ 
+<div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-indicators absolute right-10 bottom-0 left-0 flex justify-center p-0 mb-4">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="3"
+      aria-label="Slide 4"
+    ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="4"
+      aria-label="Slide 5"
+    ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="5"
+      aria-label="Slide 6"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="6"
+      aria-label="Slide 7"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="7"
+      aria-label="Slide 8"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="8"
+      aria-label="Slide 9"
+    ></button>
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="9"
+      aria-label="Slide 10"
+    ></button>
+   
+  </div>
+  <div class="carousel-inner relative w-full ml-48 mb-2 overflow-hidden">
+    <div class="carousel-item active float-left w-full">
+      <img
+        src="https://i.postimg.cc/ydR2j6JH/DSC-0149.jpg"
+        class="block w-[800px] h-[500px] rounded-3xl"
+        alt="Gaushala 1"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/3xb6H0mh/DSC-0150.jpg"
+        class="block w-[800px] h-[500px] rounded-3xl"
+        alt="Gaushala 2"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/pVY6L6zq/DSC-0151.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 3"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/tRhLVTQd/Gaushala-1.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 4"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/ZnF2kfFs/Gaushala-2.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 5"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/vmgK88tV/IMG20190605153958.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 6"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/hjV3xCw4/IMG20190605153959.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 7"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/1XP7KGhG/IMG20190605154028.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 8"
+      />
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/vmJN4R0S/IMG20190605154028-01.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 9"
+      />
+      
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img
+        src="https://i.postimg.cc/bNgW3Bvs/Gaushala.jpg"
+        class="block w-[800px] h-[500px]  rounded-3xl"
+        alt="Gaushala 10"
+      />
+      
+    </div>
+    
+  </div>
+  <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-[190px]"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat mr-32" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-[110px]"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon  inline-block bg-no-repeat mr-32" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
           <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास गौशाला</h1>
