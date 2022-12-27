@@ -299,7 +299,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 20.	रात्रि 9 बजे दुग्धपान करके छोटे छात्र सो जाते हैं और और बड़े छात्र 10 बजे शयन करते हैं।<br></br><br></br>
 </p>
 <a href="#_" class="px-[30px] ml-[250px] py-2.5 w-[700px] relative rounded group overflow-hidden font-medium bg-purple-600 text-white inline-block">
-<span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-800 group-hover:h-full opacity-90"></span>
+<span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-8 00 group-hover:h-full opacity-90"></span>
 <span class="relative group-hover:text-white"> भोजन आदि व्यवस्था का व्यय-विवरण ,छात्र, अध्यापक, कर्मचारी एवं सन्तों की संख्या-100
 </span>
 </a>
@@ -309,59 +309,342 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
     <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
       <div class="overflow-hidden">
         <table class="min-w-full">
-          <thead class="bg-white border-b">
+          <thead class="bg-gray-800 border-b">
             <tr>
-              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
                 
               </th>
-              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-                First
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              वस्तु 
               </th>
-              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-                Last
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              दैनिक
               </th>
-              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-                Handle
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              मासिक
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              वार्षिक
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Mark
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">1</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              चावल
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Otto
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              12 किलो
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @mdo
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              360 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              4320 किलो
               </td>
             </tr>
             <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Jacob
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              आटा
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Thornton
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              12 किलो
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @fat
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              360 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              4320 किलो
               </td>
             </tr>
             <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3</td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Larry
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">3</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              दाल(अरहर, चना, मूंग, ऊड़द)
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Wild
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              5 किलो	
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @twitter
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              150 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1800 किलो
               </td>
             </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">4</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              चना काले
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              4 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              120 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1440 किलो
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">5</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              देशी घी
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1-5 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              45  किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              540  किलो
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">6</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              चीनी
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              3 किलो	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              90 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1080 किलो
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">7</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              रिफाइण्ड तेल
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1 लीटर
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              30 लीटर
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              360 लीटर
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">9</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              सब्जी (आलू एवं सीजन की)
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              20 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              600 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              7200 किलो
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">10</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              जीरा, हन्दी, धनिया, मसाला	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            	30 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              360 किलो 
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">11</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              नमक
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              --
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            	30 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              360 किलो
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">12</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              मेथी, सरसों, काली मिर्च 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+        ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1-1 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              12-12 किलो  
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">13</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              हवन, पूजन, अखण्डज्योति 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              700/-	रूपये
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              21000/- रूपये
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              252000/- रूपये
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">14</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              पुस्तक, कापी, पेन, स्टेशनरी	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+       ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              30000/- रूपये
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">15</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              दिन का भोजन- दाल, चावल, रोटी, सब्जी, चना	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              5000/-रूपये
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+   ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">16</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              खीर, पूड़ी, दो सब्जी का एक समय का भोजन
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              5100/- से 7100/-
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+   ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">17</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              सभी छात्रें के लिए वर्ष भर वस्त्र आदि
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+             ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+   ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              300000/-
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">18</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              अध्यापक/कर्मचारियों का मासिक वेतन
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              90000/-
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">19</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              बिजली/पानी/टेलीफोन का मासिक खर्च
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              20000/-
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">20</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              एक महीने का भोजन का सम्पूर्ण खर्च
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              150000/-
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">21</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              एक गौ का मासिक चारा, भूसा, दाना का खर्च
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+   ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              150000/-
+              </td>
+            </tr> <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">22</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              एक महीने का भोजन का सम्पूर्ण खर्च
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+   ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              150000/-
+              </td>
+            </tr>
+
+            
           </tbody>
         </table>
       </div>
