@@ -288,6 +288,81 @@ export const Gaushala = () => {
           <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
         
         </div>
+        <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+      <div class="overflow-hidden">
+        <table class="min-w-full">
+          <thead class="bg-gray-800 border-b">
+            <tr>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+                
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              वस्तु 
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              दैनिक
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              मासिक
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              वार्षिक
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">1</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              एक गौ का मासिक चारा, भूसा, दाना का खर्च
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+           ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              2500/-रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              एक दिन का हरे चारा का खर्च (सभी गौ का)
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              700/-रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+        --- 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">3</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              दाल(अरहर, चना, मूंग, ऊड़द)
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              5 किलो	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              150 किलो
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              1800 किलो
+              </td>
+            </tr>
+          
+
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
         
        
         

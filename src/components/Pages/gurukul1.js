@@ -129,6 +129,124 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <div class="flex flex-wrap justify-center">
   
 </div>
+<div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+      <div class="overflow-hidden">
+        <table class="min-w-full">
+          <thead class="bg-gray-800 border-b">
+            <tr>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+                
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              वस्तु 
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              दैनिक
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              मासिक
+              </th>
+              <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+              वार्षिक
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">1</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              शुक्रवार को श्रीतिरुपतिबालाजी के तिरुम×जन अभिषेक	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              3100/- रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+         ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              भगवान् के श्रृंगार हेतु पुष्प एवं पुष्पमाला (मासिक)	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              20000/-रुपये
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+            ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">3</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              भगवान् का पुष्पमाला का श्रृंगार (एक दिन का)	
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              700/-रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+           ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">4</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              अष्टोत्तरशत तुलसी अर्चना               </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              100/- रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+           ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+            </tr>
+          
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">5</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              सहस्र तुलसी अर्चना	               </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              500/- रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+           ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+            </tr>
+            <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-m font-medium text-gray-900">6</td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              एक दिन का धनुर्मास उत्सव             </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              5100/-	 रुपये 
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+           ---
+              </td>
+              <td class="text-m text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              ---
+              </td>
+            </tr>
+          
+
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
       
        
     </div>
