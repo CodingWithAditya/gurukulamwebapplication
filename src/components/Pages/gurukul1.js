@@ -128,7 +128,21 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <button class="flex mx-auto mt-10 mb-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
       <div class="flex flex-wrap justify-center">
   
+      <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
+  <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">
+    <img class=" w-full h-[200px] md:h-auto object-cover md:w-[300px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.postimg.cc/x11Z6NR9/IMG20180921125829.jpg" alt="" />
+    <div class="p-6 flex flex-col justify-start">
+     
+      <p class="text-gray-700 text-xl  leading-relaxed mb-4">
+      प्रत्येक शुक्रवार और पुष्य नक्षत्र को कुल मिलाकर महीने में पाँच दिन भगवान् श्रीवेंकटेश जी का विशेष अभिषेक (तिरुम×जन) होता है। यह अवश्य दर्शनीय है। इसके अतिरिक्त रामनवमी, कृष्णजयन्ती में भी तिरुम×जन होता है। नौ चाँदी के कलशों में गंगा, यमुना का जल, दूध, दही, घी, शहद और फलों का रस तथा ओषधियों से परिपूर्ण करके उनकी स्थापना करने के पश्चात् उन्हीं कलशों से भगवान् का शास्त्रीय विधि से खुला स्नान होता है। तैत्तिरीयोपनिषद् की शिक्षावल्ली, आनन्दवल्ली एवं भृगुवल्ली का सामूहिक पाठ होता है। न्यूनतम ग्यारह लीटर दूध स्नान में प्रयोग किया जाता है। भक्तों की श्रद्धा पर दूध की मात्र 21, 31 एव इससे अधिक लीटर भी हो सकती है। भगवान् का अभिषेक कराने से धर्म, अर्थ, काम और मोक्ष चारों पुरुषार्थों प्राप्ति होती है। यह निष्काम भाव से करने पर मोक्ष की प्राप्ति होती है तो कामना से कराने पर मनोरथों की सिद्धि हो जाती है। यह अभिषेक यदि कोई भक्त अपनी ओर से करवाना चाहे तो उनके संकल्प से भी किया जाता है। इसका खर्च लगभग 3100/- रूपये आता है। राजभोग लगाना चाहें तो इसका व्यय 5100/- के आसपास अलग से होता है। 
+      </p>
+      <button class="flex mx-auto mt-[10px] ml-[1px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+       
+    </div>
+  </div>
 </div>
+</div>
+
 <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
       <div class="overflow-hidden">
         <table class="min-w-full">
