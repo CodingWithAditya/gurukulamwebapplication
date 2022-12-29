@@ -288,7 +288,7 @@ export const Gaushala = () => {
           <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
         
         </div>
-        <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+        <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8 mb-10">
       <div class="overflow-hidden">
         <table class="min-w-full">
           <thead class="bg-gray-800 border-b">
@@ -363,8 +363,22 @@ export const Gaushala = () => {
         </table>
       </div>
     </div>
-        
+     <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
+  <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">
+    <img class=" w-full h-[200px] md:h-auto object-cover md:w-[400px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.postimg.cc/7ZZWqZFN/Krishna-Cow1.jpg" alt="" />
+    <div class="p-6 flex flex-col justify-start">
+     
+      <p class="text-gray-700 text-xl text-justify  leading-relaxed mb-4">
+      गौ माता के शरीर में सभी देवी देवताओं और सभी तीर्थों का वास होता है | भारत गोप्राण देश है | कृषि पर आश्रित हमारे देश में गोजाति को जो अपूर्व सम्मान और गौरव प्राप्त है, वह अन्य देशों में नहीं है| विदेशों में तो लोग अच्छे कुत्ते कुत्तों पर गर्व करते हैं, किंतु धर्मप्राण हिंदू समाज चिरंतन काल से गो-पालन, गौ-रक्षक तथा संवर्धन के लिए प्रयत्नशील रहा है और गो को माता का दर्जा देता है| वस्तुतः भगवान श्रीकृष्ण ने इसी दिन से ही गोचरण लीला प्रारंभ की थी |सभी धर्मावलंबियों के लिए गौ माता का दूध एवं समस्त गोरस अमृत समान गुणकारी है| सभी के जीवन वह संतति का विकास गौ रक्षा पर निर्भर है |
+छप्पन भोग:- गोपाष्टमी का पर्व एक उत्सव है| इस दिन अपने आश्रम में प्रतिवर्ष गोपाष्टमी के दिन भगवान वेंकटेश जी सहित श्री कृष्ण को छप्पन प्रकार के व्यंजनों का भोग लगाया जाता है| भजन, कीर्तन, सत्संग के साथ भगवान श्री कृष्ण की आराधना की जाती है| आप सभी महानुभावों से निवेदन है कि अपने आश्रम में उपस्थित होकर इस महान उत्सव का आनंद लें|
+    </p>
+      <button class="flex mx-auto mt-[10px] ml-[1px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
        
+    </div>
+  </div>
+</div>
+        
+   
         
         
       </div>
