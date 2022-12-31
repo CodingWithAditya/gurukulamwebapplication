@@ -53,7 +53,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
           </h1>
          
           <div className=" my-4 border-b border-gray-100 pb-4">
-            <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineHome className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
               <Link to="/">होम </Link>
@@ -62,7 +62,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
             </div>
                    
             <Link to="/gurukul">
-            <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               
               <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
 
@@ -72,7 +72,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
             </div>
             </Link>
             <Link to="/gaushala">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
             <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
               गौशाला
@@ -80,7 +80,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
             </div>
             </Link>
             <Link to="/ayurvedicclinic">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineMedicalServices className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                आयुर्वेदिक  औषधालय 
@@ -89,7 +89,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
             </div>
             </Link>
             <Link to="/heartclinic">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaHeart className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                  हार्ट क्लिनिक  
@@ -98,7 +98,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
             </div>
             </Link>
             <Link to="/samajik">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaHandshake className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                  अन्य सामाजिक प्रकल्प  
@@ -108,7 +108,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
             </div>
             </Link>
             <Link to="/prakashan">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaBook className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
              प्रकाशन
