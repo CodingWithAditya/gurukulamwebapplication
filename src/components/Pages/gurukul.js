@@ -147,21 +147,21 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
     <div class="carousel-item active float-left w-full">
       <img
         src={require('../../images/groupphoto.JPG')}
-        class="block w-[800px] h-[400px] rounded-3xl"
+        class="block w-[700px] h-[400px] rounded-3xl"
         alt="Wild Landscape"
       />
     </div>
     <div class="carousel-item float-left w-full">
       <img
         src={require('../../images/Aayurvedicaushadhalay.JPG')}
-        class="block w-[800px] h-[400px] rounded-3xl"
+        class="block w-[700px] h-[400px] rounded-3xl"
         alt="Camera"
       />
     </div>
     <div class="carousel-item float-left w-full">
       <img
         src={require('../../images/Gaushala.JPG')}
-        class="block w-[800px] h-[400px]  rounded-3xl"
+        class="block w-[700px] h-[400px]  rounded-3xl"
         alt="Exotic Fruits"
       />
     </div>
