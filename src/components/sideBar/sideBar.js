@@ -182,7 +182,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 <span class="relative text-[20px]  transition-colors duration-200 ease-in-out group-hover:text-red-600 ml-[1px]">श्रीनिवास सेवार्थ न्यास  </span>
 </a>
 </Link>
-<Link to="/sanskrit-vidyapeetham">
+<Link to="/gurkul">
 <a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[-188px]   right-[270px] rounded-3xl  z-30 relative inline-flex items-center justify-start py-3 pl-4 pr-[50px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out hover:pl-10 hover:pr-6 bg-white group">
 <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
 <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
