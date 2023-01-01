@@ -122,7 +122,26 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       
     <div class="  flex flex-col  w-full mb-10">
    
-    
+    <div class="ml-10">
+    <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 ml-[10px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+
+<span class="relative">गौशाला </span>
+
+</a>
+<a href="https://www.gurukulsanskritam.com/prakashan" class="px-5 mb-10 ml-[900px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+
+<span class="relative">प्रकाशन  </span>
+
+</a>
+    </div>
 
       <h2 class="text-[10px] text-center mt-12 text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
       <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास संस्कृत विद्यापीठम् </h1>
@@ -137,7 +156,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 	3- यहाँ से पढे हुये छात्रें ने विभिÂ विश्वविद्यालयों में जाकर बी-ए तथा एम-ए इत्यादि कक्षाओं में अनेक स्वर्णपदक प्राप्त किये हैं।  <br></br>  <br></br>
 	4- यहाँ से शिक्षा प्राप्त किये हुये अनेक छात्र भारत तथा नेपाल, अमेरिका इत्यादि देशों में विभिÂ विश्वविद्यालयों में प्राफेसर, लेक्चरर इत्यादि पदों पर रहकर संस्कृत एवं संस्कृति प्रचार प्रसार में संलग्न है। <br></br> <br></br>
 </p>
-      
+
        <button class="flex mx-auto mt-[10px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
        
        

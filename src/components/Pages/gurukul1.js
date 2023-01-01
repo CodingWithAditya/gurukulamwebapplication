@@ -8,7 +8,7 @@
   } from "react-icons/md";
   import { FaHeart,FaHandshake,FaBook,FaCampground, FaBlog} from "react-icons/fa";
   import { Link } from 'react-router-dom';
-
+  import 'tw-elements';
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
     export const Gurukul1 = () => {
       
@@ -127,7 +127,36 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <p class=" mx-auto justify-between text-justify leading-relaxed text-xl">श्रीनिवास सेवार्थ न्यास एक नो प्रॉफिट नो लॉस की नीति लेकर शिक्षा, सेवा, साधना के माध्यम से समाजसेवा के लिए समर्पित पब्लिक चैरिटेबल ट्रस्ट है, जिसके संस्थापक वैकुण्ठवासी स्वामी श्री गोविन्दाचार्य जी (गोविन्द प्रसाद शर्मा) हैं। यह न्यास (ट्रस्ट) दिल्ली रजिस्ट्रार कार्यालय से पंजीकृत और इनकम टैक्स की धारा 12-A एवं 80 G के अन्तर्गत संस्था पूर्णरूपेण आयकर मुक्त है एवं 80-G के अन्तर्गत दानादाताओं के पक्ष में संस्था को करमुक्ति प्रमाणपत्र प्राप्त है। न्यास के माध्यम से शिक्षा, सेवा और साधना को उद्देश्य करके सभी कार्य किये जाते हैं। जैसे कि मन्दिर की व्यवस्था, गौशाला की व्यवस्था, निःशुल्क आयुर्वेदिक डिस्पैन्शरी, गरीब एवं असहाय बच्चों की शिक्षा हेतु सहायता, गरीब कन्याओं के विवाह में सहायता और सभी देश, धर्म, संस्कृति और समाज के हित में यथासम्भव सेवा के कार्य किये जाते हैं।</p>
       <button class="flex mx-auto mt-10 mb-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
       <div class="flex flex-wrap justify-center">
-  
+      <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 ml-[10px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+
+<span class="relative">गौशाला </span>
+
+</a>
+<a href="https://www.gurukulsanskritam.com/ayurvedicclinic" class="px-5 mb-10 ml-40 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+<span class="relative">आयुर्वेदिक औषधालय </span>
+</a>
+<a href="https://www.gurukulsanskritam.com/heartclinic" class="px-5 mb-10 ml-40 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+<span class="relative">हार्ट क्लिनिक </span>
+</a>
+<a href="https://www.gurukulsanskritam.com/samajik" class="px-5 mb-10 ml-40 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+<span class="relative">अन्य सामाजिक प्रकल्प </span>
+</a>
       <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
   <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">
     <img class=" w-full h-[200px] md:h-auto object-cover md:w-[300px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.postimg.cc/x11Z6NR9/IMG20180921125829.jpg" alt="" />
