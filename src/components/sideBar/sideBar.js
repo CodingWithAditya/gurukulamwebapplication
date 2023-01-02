@@ -219,7 +219,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 <MyModal3 onClose={handleOnClose3} visible={Model3}/>
 <MyModal4 onClose={handleOnClose4} visible={Model4}/>
 
-<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[10px] lg:w-[343px] relative ">
+<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[10px] lg:w-[403px] relative ">
   
 <div class="mb-4">
     <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
