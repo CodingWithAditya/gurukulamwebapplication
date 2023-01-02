@@ -45,7 +45,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
     <div class="flex items-start w-full	 relative"	>
       
     
-      <div className="  border-2 border-gray-100 p-6 w-3/4 h-max bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
+      <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
           <h1  className="text-2xl text-center cursor-pointer font-bold text-red-700 border-b border-gray-100 pb-4 w-full" >
           जय श्रीमन्नारायण
@@ -152,22 +152,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
     
       
       <div class=" relative   ml-5 mt-[-45px]" >
-      <Link to="/bhoomidaan">
-<a href="#_" class=" rounded-lg top-[208px]  rounded-3xl   right-[10px]  z-20 relative inline-flex items-center justify-start py-3 pl-4 pr-[100px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-white group">
-<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
-<span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
-<svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
-<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span class=" relative w-full text-2xl transition-colors duration-200 ease-in-out group-hover:text-red-600">भूमिदान </span>
-
- 
-
-</a>
-
-</Link>
+      
    
 
 
@@ -175,39 +160,46 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
      
 
   <div class="mb-4">
-   
-
-  <img src={require('../../images/bannerguru.jpg')}class="max-w-full h-[550px] rounded-lg relative " alt=""/>
-  </div>
-  <Link to="/sewarth-nyas">
-  <a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[-298px]   right-[10px]  rounded-3xl  z-30 relative inline-flex items-center justify-start py-3 pl-4 pr-[50px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-white group">
-<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
-<span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
-<svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
-<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span class="relative text-[20px]  transition-colors duration-200 ease-in-out group-hover:text-red-600 ml-[1px]">श्रीनिवास सेवार्थ न्यास  </span>
+   <div class="bg-orange-400 h-[560px] w-[820px] rounded-2xl mt-14"> 
+   <img src={require('../../images/head2.png')} alt="log3-copy" border="0" class="h-20 ml-[240px] " />
+   <Link to="/bhoomidaan-yojana">
+<a  class=" ml-5 relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-blue-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-blue-500">
+<span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
+<span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+<span class="relative text-white">भूमिदान </span>
 </a>
+
+</Link>
+<Link to="/sewarth-nyas">
+<a class="ml-[170px] relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
+<span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
+<span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+<span class="relative text-white">श्रीनिवास सेवार्थ न्यास  </span>
+</a>
+
 </Link>
 <Link to="/sanskrit-vidyapeetham">
-<a onClick={()=> setGoToBhoomi(true)} href="#_" class="top-[-188px]   right-[270px] rounded-3xl  z-30 relative inline-flex items-center justify-start py-3 pl-4 pr-[50px]  overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out hover:pl-10 hover:pr-6 bg-white group">
-<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-yellow-300 group-hover:h-full"></span>
-<span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
-<svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
-<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span class="relative text-[18px] transition-colors duration-200 ease-in-out group-hover:text-red-600 ">श्रीनिवास संस्कृत विद्यापीठम  </span>
+<a  class="ml-[100px] relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
+<span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
+<span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+<span class="relative text-white">श्रीनिवास संस्कृत विद्यापीठम </span>
 </a>
+
 </Link>
+<div class="bg-white h-[400px] w-[803px] ml-2 rounded-3xl mt-6">
+<p class="text-gray-700 text-lg  font-medium  text-justify ml-1 mr-2 ">
+<br></br>परमपूज्य गुरुदेव वैकुण्ठवासी स्वामी श्री गोविन्दाचार्य जी ने पहले कभी विश्वगुरु कहे जाने वाले हमारे देश की दिव्य प्राचीन संस्कृति को पुनः संरक्षण देने हेतु अपने जीवन काल में 1000 से अधिक सुयोग्य विद्वान् तैयार करने का लक्ष्य लेकर दिल्ली, जयपुर, पंचकूला इत्यादि विभिन्न स्थलाें में 10 से अधिक गुरुकुलों की स्थापना की, जहाँ वर्तमान में लगभग 400 से अधिक संख्या में छात्र निःशुल्क भोजन, आवास सहि अध्ययन कर रहे हैं। <br></br>
+<br></br>इन गुरुकुलाें के माध्यम से पूरे देश को ऐसे विद्वान् समर्पित कर सकें, जिनसे आदर्श समाज के साथ-साथ आदर्श राष्ट्र का निर्माण हो। अतः गुरुकुल की दिनचर्या ऐसी हो जिसमें वटुक ब्रह्मचारी शिक्षा सेवा तथा साधना इन तीनाें का ज्ञान प्राप्त कर सकें तथा राष्ट्र की सेवा भी हो सकें।
+	इसी उद्देश्य से आपश्री के द्वारा सर्वप्रथम स्थापित एवं संचालित गुरुकुल है दिल्ली के बुराड़ी में स्थित श्रीनिवास संस्कृत विद्यापीठम्। यहीं पर आपने गुरुकुल के साथ गौशाला, निःशुल्क आयुर्वेदिक औषधालय, निःशुल्क हृदयरोग क्लीनिक एवं श्रीनिवास वेंकटेश भगवान (तिरुपति बालाजी) मन्दिर इत्यादि सामाजिक प्रकल्पाें की भी स्थापना की।
+
+      </p>
+</div>
+   </div>
+
   
-  <button class="bg-orange-500 text-white font-bold  text-xl py-2 px-8 rounded-full absolute z-10  top-[100px]  right-[600px] ">
-    
-  DONATE NOW
-</button>
+  </div>
+ 
+  
 
 
 <div class="ml-[420px]   -mb-[250px] z-20">
@@ -227,7 +219,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 <MyModal3 onClose={handleOnClose3} visible={Model3}/>
 <MyModal4 onClose={handleOnClose4} visible={Model4}/>
 
-<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[29px] lg:w-80 relative ">
+<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[10px] lg:w-[343px] relative ">
   
 <div class="mb-4">
     <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
