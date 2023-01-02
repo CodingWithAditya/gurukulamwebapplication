@@ -19,7 +19,7 @@ const Navbar = () => {
    <img src={require('../../images/head1.png')} alt="log3-copy" border="0" class="h-10 ml-[430px] " />
    
    
-   <p class="text-xl mt-2 ml-[400px] font-semibold text-white dark:text-white">+91 98183 78284</p>
+   <p class="text-xl mt-2 ml-[400px] font-semibold text-white dark:text-white">COntact Us</p>
    </div>
     <nav class="bg-red-900 border-gray-200 px-4 lg:px-6 pb-4 h-full dark:bg-red-900">
 
