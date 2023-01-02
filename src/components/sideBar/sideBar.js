@@ -160,7 +160,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
      
 
   <div class="mb-4">
-   <div class="bg-orange-400 h-[560px] w-[820px] rounded-2xl mt-14"> 
+   <div class="bg-orange-400 h-[530px] w-[820px] rounded-2xl mt-14"> 
    <img src={require('../../images/head2.png')} alt="log3-copy" border="0" class="h-20 ml-[240px] " />
    <Link to="/bhoomidaan-yojana">
 <a  class=" ml-5 relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-blue-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-blue-500">
@@ -186,7 +186,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 </a>
 
 </Link>
-<div class="bg-white h-[400px] w-[803px] ml-2 rounded-3xl mt-6">
+<div class="bg-white h-[370px] w-[803px] ml-2 rounded-3xl mt-6">
 <p class="text-gray-700 text-lg  font-medium  text-justify ml-1 mr-2 ">
 <br></br>परमपूज्य गुरुदेव वैकुण्ठवासी स्वामी श्री गोविन्दाचार्य जी ने पहले कभी विश्वगुरु कहे जाने वाले हमारे देश की दिव्य प्राचीन संस्कृति को पुनः संरक्षण देने हेतु अपने जीवन काल में 1000 से अधिक सुयोग्य विद्वान् तैयार करने का लक्ष्य लेकर दिल्ली, जयपुर, पंचकूला इत्यादि विभिन्न स्थलाें में 10 से अधिक गुरुकुलों की स्थापना की, जहाँ वर्तमान में लगभग 400 से अधिक संख्या में छात्र निःशुल्क भोजन, आवास सहि अध्ययन कर रहे हैं। <br></br>
 <br></br>इन गुरुकुलाें के माध्यम से पूरे देश को ऐसे विद्वान् समर्पित कर सकें, जिनसे आदर्श समाज के साथ-साथ आदर्श राष्ट्र का निर्माण हो। अतः गुरुकुल की दिनचर्या ऐसी हो जिसमें वटुक ब्रह्मचारी शिक्षा सेवा तथा साधना इन तीनाें का ज्ञान प्राप्त कर सकें तथा राष्ट्र की सेवा भी हो सकें।
