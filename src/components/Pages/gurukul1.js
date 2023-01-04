@@ -125,7 +125,8 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
     <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास सेवार्थ न्यास</h1>
       <p class=" mx-auto justify-between text-justify leading-relaxed text-xl">श्रीनिवास सेवार्थ न्यास एक नो प्रॉफिट नो लॉस की नीति लेकर शिक्षा, सेवा, साधना के माध्यम से समाजसेवा के लिए समर्पित पब्लिक चैरिटेबल ट्रस्ट है, जिसके संस्थापक वैकुण्ठवासी स्वामी श्री गोविन्दाचार्य जी (गोविन्द प्रसाद शर्मा) हैं। यह न्यास (ट्रस्ट) दिल्ली रजिस्ट्रार कार्यालय से पंजीकृत और इनकम टैक्स की धारा 12-A एवं 80 G के अन्तर्गत संस्था पूर्णरूपेण आयकर मुक्त है एवं 80-G के अन्तर्गत दानादाताओं के पक्ष में संस्था को करमुक्ति प्रमाणपत्र प्राप्त है। न्यास के माध्यम से शिक्षा, सेवा और साधना को उद्देश्य करके सभी कार्य किये जाते हैं। जैसे कि मन्दिर की व्यवस्था, गौशाला की व्यवस्था, निःशुल्क आयुर्वेदिक डिस्पैन्शरी, गरीब एवं असहाय बच्चों की शिक्षा हेतु सहायता, गरीब कन्याओं के विवाह में सहायता और सभी देश, धर्म, संस्कृति और समाज के हित में यथासम्भव सेवा के कार्य किये जाते हैं।</p>
       
-      <div class="flex flex-wrap justify-center mt-10">
+      <div class="flex flex-wrap justify-center mt-10 ">
+     
       <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 mr-[20px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
 <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
@@ -156,13 +157,20 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
 <span class="relative font-bold text-2xl">अन्य सामाजिक प्रकल्प </span>
 </a>
+<a href="https://www.gurukulsanskritam.com/mandir " class="px-5 mb-10 mr-20 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+<span class="relative font-bold text-2xl">श्रीनिवास वेंकटेश मंदिर (तिरुपति बालाजी ) </span>
+</a>
       <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
   <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">
     <img class=" w-full h-[200px] md:h-auto object-cover md:w-[300px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.postimg.cc/x11Z6NR9/IMG20180921125829.jpg" alt="" />
     <div class="p-6 flex flex-col justify-start">
      
       <p class="text-gray-700 text-xl text-justify leading-relaxed mb-4">
-      प्रत्येक शुक्रवार और पुष्य नक्षत्र को कुल मिलाकर महीने में पाँच दिन भगवान् श्रीवेंकटेश जी का विशेष अभिषेक (तिरुम×जन) होता है। यह अवश्य दर्शनीय है। इसके अतिरिक्त रामनवमी, कृष्णजयन्ती में भी तिरुम×जन होता है। नौ चाँदी के कलशों में गंगा, यमुना का जल, दूध, दही, घी, शहद और फलों का रस तथा ओषधियों से परिपूर्ण करके उनकी स्थापना करने के पश्चात् उन्हीं कलशों से भगवान् का शास्त्रीय विधि से खुला स्नान होता है। तैत्तिरीयोपनिषद् की शिक्षावल्ली, आनन्दवल्ली एवं भृगुवल्ली का सामूहिक पाठ होता है। न्यूनतम ग्यारह लीटर दूध स्नान में प्रयोग किया जाता है। भक्तों की श्रद्धा पर दूध की मात्र 21, 31 एव इससे अधिक लीटर भी हो सकती है। भगवान् का अभिषेक कराने से धर्म, अर्थ, काम और मोक्ष चारों पुरुषार्थों प्राप्ति होती है। यह निष्काम भाव से करने पर मोक्ष की प्राप्ति होती है तो कामना से कराने पर मनोरथों की सिद्धि हो जाती है। यह अभिषेक यदि कोई भक्त अपनी ओर से करवाना चाहे तो उनके संकल्प से भी किया जाता है। इसका खर्च लगभग 3100/- रूपये आता है। राजभोग लगाना चाहें तो इसका व्यय 5100/- के आसपास अलग से होता है। 
+      प्रत्येक शुक्रवार और पुष्य नक्षत्र को कुल मिलाकर महीने में पाँच दिन भगवान् श्रीवेंकटेश जी का विशेष अभिषेक (तिरुमंजन ) होता है। यह अवश्य दर्शनीय है। इसके अतिरिक्त रामनवमी, कृष्णजयन्ती में भी तिरुमंजन  होता है। नौ चाँदी के कलशों में गंगा, यमुना का जल, दूध, दही, घी, शहद और फलों का रस तथा ओषधियों से परिपूर्ण करके उनकी स्थापना करने के पश्चात् उन्हीं कलशों से भगवान् का शास्त्रीय विधि से खुला स्नान होता है। तैत्तिरीयोपनिषद् की शिक्षावल्ली, आनन्दवल्ली एवं भृगुवल्ली का सामूहिक पाठ होता है। न्यूनतम ग्यारह लीटर दूध स्नान में प्रयोग किया जाता है। भक्तों की श्रद्धा पर दूध की मात्र 21, 31 एव इससे अधिक लीटर भी हो सकती है। भगवान् का अभिषेक कराने से धर्म, अर्थ, काम और मोक्ष चारों पुरुषार्थों प्राप्ति होती है। यह निष्काम भाव से करने पर मोक्ष की प्राप्ति होती है तो कामना से कराने पर मनोरथों की सिद्धि हो जाती है। यह अभिषेक यदि कोई भक्त अपनी ओर से करवाना चाहे तो उनके संकल्प से भी किया जाता है। इसका खर्च लगभग 3100/- रूपये आता है। राजभोग लगाना चाहें तो इसका व्यय 5100/- के आसपास अलग से होता है। 
       </p>
       <button class="flex mx-auto mt-[10px] ml-[1px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
        
@@ -170,6 +178,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
   </div>
 </div>
 </div>
+
 
 <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
       <div class="overflow-hidden">

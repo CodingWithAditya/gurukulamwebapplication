@@ -20,6 +20,7 @@ import { Bhoomidaan1 } from './components/Pages/bhoomidaan1';
 import { Bhoomidaan3 } from './components/Pages/bhoomidaan3';
 import { Gurukul1 } from './components/Pages/gurukul1';
 import { Gurukul2 } from './components/Pages/gurukul2';
+import { Mandir } from './components/Pages/mandir';
 
 
 
@@ -52,6 +53,7 @@ function App() {
         <Route path="/bhoomidaan-kyon-karna-chahiye" element={<Bhoomidaan3/>}/>
         <Route path="/sewarth-nyas" element={<Gurukul1/>}/>
         <Route path="/sanskrit-vidyapeetham" element={<Gurukul2/>}/>
+        <Route path ="/mandir" element={<Mandir/>}/>
        
 
 
