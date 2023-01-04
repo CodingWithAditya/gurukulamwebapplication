@@ -121,7 +121,6 @@ export const Heart = () => {
   alt="..."
 />
 </div>
-          <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास हृदयरोग चिकित्सा केन्द्र  </h1>
           <p class=" mx-auto justify-between text-justify leading-relaxed text-xl">देश के प्रतिष्ठित हृदयरोग विशेषज्ञ डॉ-एन-सी-कृष्णमणि जी के निर्देशन में प्रत्येक शनिवार को गरीब एवं निर्धन हृदयरोगियों के लिये निःशुल्क चिकित्सा की सेवा की जाती है। निःशुल्क चिकित्सा परामर्श के साथ-साथ निःशुल्क इको, इसीजी इत्यादि टेस्ट भी किये जाते हैं।  </p>
           <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>

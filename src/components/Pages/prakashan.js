@@ -114,7 +114,6 @@ export const Prakashan = () => {
           
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
         <div class="  flex flex-col  w-full mb-10">
-          <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
           <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">स्वामी गोविन्दाचार्य जी द्वारा लिखित तथा </h1>
           <p class=" mx-auto justify-between text-justify leading-[50px] text-xl">1.	पाणिनीय व्याकरणस्यैतिहासिकं परिशीलनम् (संस्कृत में)	<br></br>
 2. 	 नित्यानुसन्धानम् (हिन्दी अनुवाद सहित)<br></br>
