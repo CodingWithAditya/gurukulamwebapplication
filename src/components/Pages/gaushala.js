@@ -5,7 +5,7 @@ import {
     MdOutlineHome,
   MdOutlineLogout,
 } from "react-icons/md";
-import { FaHeart,FaHandshake,FaBook,FaCampground, FaBlog} from "react-icons/fa";
+import { FaHeart,FaHandshake,FaBook,FaCampground, FaBlog,FaOm} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import 'tw-elements';
  
@@ -14,15 +14,11 @@ export const Gaushala = () => {
   return (
     <div class="flex items-start w-full	 relative"	>
 
-<div className="  border-2 border-gray-100 p-6 w-3/4 h-max bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
+<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
-          <h1  className="text-2xl text-center cursor-pointer font-bold text-red-700 border-b border-gray-100 pb-4 w-full" >
-          जय श्रीमन्नारायण
-          
-          </h1>
-         
-          <div className=" my-4 border-b border-gray-100 pb-4">
-            <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+        
+          <div className=" -my-2 border-b border-gray-100 pb-4">
+            <div className="flex mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineHome className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
               <Link to="/">होम </Link>
@@ -31,7 +27,7 @@ export const Gaushala = () => {
             </div>
                    
             <Link to="/gurukul">
-            <div className="flex mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               
               <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
 
@@ -41,7 +37,7 @@ export const Gaushala = () => {
             </div>
             </Link>
             <Link to="/gaushala">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
             <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
               गौशाला
@@ -49,7 +45,7 @@ export const Gaushala = () => {
             </div>
             </Link>
             <Link to="/ayurvedicclinic">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <MdOutlineMedicalServices className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                आयुर्वेदिक  औषधालय 
@@ -58,7 +54,7 @@ export const Gaushala = () => {
             </div>
             </Link>
             <Link to="/heartclinic">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaHeart className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                  हार्ट क्लिनिक  
@@ -67,7 +63,7 @@ export const Gaushala = () => {
             </div>
             </Link>
             <Link to="/samajik">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaHandshake className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
                  अन्य सामाजिक प्रकल्प  
@@ -77,7 +73,7 @@ export const Gaushala = () => {
             </div>
             </Link>
             <Link to="/prakashan">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaBook className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
              प्रकाशन
@@ -85,14 +81,16 @@ export const Gaushala = () => {
               </h3>
             </div>
             </Link>
-            <Link to="/bhoomidaan">
-            <div className="flex  mb-8 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaCampground  className="text-3xl text-gray-600 group-hover:text-white " />
+            <Link to="/prakashan">
+            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              <FaOm className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-            भूमिदान  
+मंदिर            
               </h3>
             </div>
             </Link>
+           
+
             <Link to="/blog">
             <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaBlog  className="text-3xl text-gray-600 group-hover:text-white " />
@@ -115,6 +113,7 @@ export const Gaushala = () => {
           </div>
         </div>
       </div>
+    
           
           
           <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
@@ -282,8 +281,7 @@ export const Gaushala = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-          <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
-          <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास गौशाला</h1>
+  <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास गौशाला</h1>
           <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">कामधेनु वंश की गौमाताओं की सेवा हेतु एक गौशाला संचालित है। गौशाला का मुख्य उद्देश्य गुरुकुल में पढने वाले बालकों के लिये गोदुग्ध का पोषण प्राप्त हो। वर्तमान में अभी 30 के लगभग गोवंश हैं।</p>
           <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
         
