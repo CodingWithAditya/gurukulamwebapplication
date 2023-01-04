@@ -17,7 +17,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
         <div class="flex items-start w-full	 relative"	>
           
 
- <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
+ <div className="  border-2 border-gray-100 p-6 w-3/4 h-[990px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
         
           <div className=" -my-2 border-b border-gray-100 pb-4">
@@ -116,144 +116,45 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
           </div>
         </div>
       </div>
-      <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
-        <div className="flex flex-col justify-start item-center">
-        
-          <div className=" -my-2 border-b border-gray-100 pb-4">
-            <div className="flex mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <MdOutlineHome className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-              <Link to="/">होम </Link>
-                  
-              </h3>
-            </div>
-                   
-            <Link to="/gurukul">
-            <div className="flex mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              
-              <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
-
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-       गुरुकुल
-              </h3>
-            </div>
-            </Link>
-            <Link to="/gaushala">
-            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-            <MdOutlineLibraryBooks className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-              गौशाला
-                 </h3>
-            </div>
-            </Link>
-            <Link to="/ayurvedicclinic">
-            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <MdOutlineMedicalServices className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-               आयुर्वेदिक  औषधालय 
-
-              </h3>
-            </div>
-            </Link>
-            <Link to="/heartclinic">
-            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaHeart className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                 हार्ट क्लिनिक  
-
-              </h3>
-            </div>
-            </Link>
-            <Link to="/samajik">
-            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaHandshake className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-                 अन्य सामाजिक प्रकल्प  
-
-                 
-              </h3>
-            </div>
-            </Link>
-            <Link to="/prakashan">
-            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaBook className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-             प्रकाशन
-           
-              </h3>
-            </div>
-            </Link>
-            <Link to="/prakashan">
-            <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaOm className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-मंदिर            
-              </h3>
-            </div>
-            </Link>
-           
-
-            <Link to="/blog">
-            <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <FaBlog  className="text-3xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
-              ब्लॉग
-                   
-              </h3>
-            </div>
-            </Link>
-          </div>
-       
-          {/* logout */}
-          <div className=" my-4">
-            <div className="flex mb-2 justify-start items-center gap-4 pl-5 border border-gray-200  hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-              <MdOutlineLogout className="text-2xl text-gray-600 group-hover:text-white " />
-              <h3 className="text-2xl text-gray-800 group-hover:text-white font-semibold ">
-                Donate Us
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     
       <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
       
     <div class="  flex flex-col  w-full mb-10">
-   
-      <h2 class="text-[10px] text-center text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
-      <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास सेवार्थ न्यास</h1>
+    <button class="flex mx-auto mb-6 mr-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+    <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास सेवार्थ न्यास</h1>
       <p class=" mx-auto justify-between text-justify leading-relaxed text-xl">श्रीनिवास सेवार्थ न्यास एक नो प्रॉफिट नो लॉस की नीति लेकर शिक्षा, सेवा, साधना के माध्यम से समाजसेवा के लिए समर्पित पब्लिक चैरिटेबल ट्रस्ट है, जिसके संस्थापक वैकुण्ठवासी स्वामी श्री गोविन्दाचार्य जी (गोविन्द प्रसाद शर्मा) हैं। यह न्यास (ट्रस्ट) दिल्ली रजिस्ट्रार कार्यालय से पंजीकृत और इनकम टैक्स की धारा 12-A एवं 80 G के अन्तर्गत संस्था पूर्णरूपेण आयकर मुक्त है एवं 80-G के अन्तर्गत दानादाताओं के पक्ष में संस्था को करमुक्ति प्रमाणपत्र प्राप्त है। न्यास के माध्यम से शिक्षा, सेवा और साधना को उद्देश्य करके सभी कार्य किये जाते हैं। जैसे कि मन्दिर की व्यवस्था, गौशाला की व्यवस्था, निःशुल्क आयुर्वेदिक डिस्पैन्शरी, गरीब एवं असहाय बच्चों की शिक्षा हेतु सहायता, गरीब कन्याओं के विवाह में सहायता और सभी देश, धर्म, संस्कृति और समाज के हित में यथासम्भव सेवा के कार्य किये जाते हैं।</p>
-      <button class="flex mx-auto mt-10 mb-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
-      <div class="flex flex-wrap justify-center">
-      <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 ml-[10px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+      
+      <div class="flex flex-wrap justify-center mt-10">
+      <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 mr-[20px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
 <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
 
-<span class="relative">गौशाला </span>
+<span class="relative font-bold text-2xl">गौशाला </span>
 
 </a>
-<a href="https://www.gurukulsanskritam.com/ayurvedicclinic" class="px-5 mb-10 ml-40 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<a href="https://www.gurukulsanskritam.com/ayurvedicclinic" class="px-5 mb-10 ml-10 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
 <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
-<span class="relative">आयुर्वेदिक औषधालय </span>
+<span class="relative font-bold text-2xl">आयुर्वेदिक औषधालय </span>
 </a>
-<a href="https://www.gurukulsanskritam.com/heartclinic" class="px-5 mb-10 ml-40 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<a href="https://www.gurukulsanskritam.com/heartclinic" class="px-5 mb-10 ml-20 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
 <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
-<span class="relative">हार्ट क्लिनिक </span>
+<span class="relative font-bold text-2xl">हार्ट क्लिनिक </span>
 </a>
-<a href="https://www.gurukulsanskritam.com/samajik" class="px-5 mb-10 ml-40 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<a href="https://www.gurukulsanskritam.com/samajik" class="px-5 mb-10 ml-20 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
 <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
 <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
-<span class="relative">अन्य सामाजिक प्रकल्प </span>
+<span class="relative font-bold text-2xl">अन्य सामाजिक प्रकल्प </span>
 </a>
       <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
   <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">

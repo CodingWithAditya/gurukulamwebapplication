@@ -115,9 +115,11 @@ export const Bhoomidaan1 = () => {
 
 
       <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
-                 <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">भूमि दान योजना
-</h1>
-          <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">पूज्य गुरुदेव के द्वारा संस्थापित गुरुकुल, छात्रवास, मन्दिर, आयुर्वेदिक
+        <div class="bg-red-600 mb-6  ml-[360px] h-[50px] w-[300px] pt-2 rounded-3xl">
+                 <h1 class="sm:text-3xl text-2xl text-center font-medium title-font  text-yellow-200">भूमि दान योजना
+</h1></div>
+      <div class="bg-purple-500 rounded-2xl" >     
+          <p class=" mb-2 mx-auto justify-between text-justify p-4 leading-relaxed text-xl text-white  text-shadow-xl font-medium">पूज्य गुरुदेव के द्वारा संस्थापित गुरुकुल, छात्रवास, मन्दिर, आयुर्वेदिक
 औ-ुनवजयाधालय, हृदयरोग क्लीनिक, गौ-रु39यााला आदि जिस भूखण्ड पर संचालित है, इन
 लक्ष्याें की पूर्ति हेतु अतिरिक्त भूखण्ड की आव-रु39ययकता है। समीप ही एक भूखण्ड
 2000 वर्ग गज विक्रय हेतु उपलब्ध है तथा संस्था द्वारा खरीदने हेतु प्रस्तावित
@@ -127,28 +129,46 @@ export const Bhoomidaan1 = () => {
 भूमिदान के आगे ब-सजयें। यह भूमिदान आपके स्वयं, माता-ंउचयपिता, पूर्वज, कुल,
 वंश की कीर्ति को सर्वदा अमर पृष्ठ के रूप में गुरुकुल के इतिहास में जीवन्त
 रखेगा। अतः आप सभी से सविनय प्रार्थना है कि इस भूमिदान यज्ञ में अपनी
-यथासम्भव आहुति प्रदान करें।</p>
-<br></br>
-<p class=" mx-auto justify-between text-justify leading-relaxed text-2xl"> वर्तमान में 1 गज की सेवा राशि लगभग 21,000/- रूपये है। दानदाताओं 
+यथासम्भव आहुति प्रदान करें।</p></div>
+   
+<div class="bg-blue-700  rounded-2xl ">
+<p class=" mx-auto justify-between text-justify p-4 leading-relaxed text-xl text-white  text-shadow-xl font-medium"> वर्तमान में 1 गज की सेवा राशि लगभग 21,000/- रूपये है। दानदाताओं 
 को संस्था द्वारा भूमिदानप्रमाण स्वरूप निम्नलिखित सम्मान प्रदाना किया जाएगा
 तथा शिलालेख अथवा स्मारिका में नाम प्रकाशित किया जायेगा।</p>
+</div>
 <br></br>
 <p class=" mx-auto justify-between text-center leading-relaxed text-2xl">
-वर्तमान में 1गज की सेवा राशि लगभग 21,000/- रूपये है। दानदाताओं <br></br>
-को संस्था द्वारा भूमिदानप्रमाण स्वरूप निम्नलिखित सम्मान प्रदाना किया जाएगा<br></br>
-तथा शिलालेख अथवा स्मारिका में नाम प्रकाशित किया जायेगा।<br></br>
-भूमिदान हीरकरत्न 51 वर्ग गज की सेवाराशी  11,00,000/-  रूपये<br></br>
-भूमिदान स्वर्णरत्न 25 वर्ग गज की सेवाराशी 5,25,000/-  रूपये<br></br>
-भूमिदान रजतरत्न 11 वर्ग गज की सेवाराशी 2,25,000/- रूपये<br></br>
-भूमिदान कांस्यरत्न 5 वर्ग गज की सेवाराशी 105,000/- रूपये<br></br>
-भूमिदान सेवारत्न 1 वर्ग गज की सेवाराशी 21,000/- रूपये</p> <br></br>
-<p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">
+<div class="bg-orange-400 rounded-2xl h-16 mb-2">
+<p class="ml-[200px] mx-auto justify-between text-justify p-4 leading-relaxed text-2xl text-black   font-medium">भूमिदान हीरकरत्न 51 वर्ग गज की सेवाराशी  11,00,000/-  रूपये </p><br></br>
+</div>
+
+<div class="bg-purple-400 rounded-2xl h-16 mb-2">
+<p class="ml-[200px] mx-auto justify-between text-justify p-4 leading-relaxed text-2xl text-black   font-medium">भूमिदान स्वर्णरत्न 25 वर्ग गज की सेवाराशी 5,25,000/-  रूपये</p><br></br>
+</div>
+
+<div class="bg-green-400 rounded-2xl h-16 mb-2">
+<p class="ml-[200px] mx-auto justify-between text-justify p-4 leading-relaxed text-2xl text-black   font-medium">भूमिदान रजतरत्न 11 वर्ग गज की सेवाराशी 2,25,000/- रूपये </p><br></br>
+</div>
+
+<div class="bg-slate-200 rounded-2xl h-16 mb-2">
+<p class="ml-[200px] mx-auto justify-between text-justify p-4 leading-relaxed text-2xl text-black   font-medium">भूमिदान कांस्यरत्न 5 वर्ग गज की सेवाराशी 105,000/- रूपये </p><br></br>
+</div>
+
+<div class="bg-purple-400 rounded-2xl h-16 mb-2">
+<p class="ml-[200px] mx-auto justify-between text-justify p-4 leading-relaxed text-2xl text-black   font-medium">भूमिदान सेवारत्न 1 वर्ग गज की सेवाराशी 21,000/- रूपये  </p><br></br>
+</div>
+
+ </p>
+ <div class="bg-red-600 rounded-2xl h-[180px]">
+<p class=" mx-auto justify-between text-justify p-4 leading-relaxed text-2xl text-yellow-200   font-medium">
 आप यथाशक्ति  1100/-, 2100/-  ,5100/- 11000/- की राशि द्वारा
 भूमिदान यज्ञ में आहुति-प्रदान कर सकते हैं। आप स्वयं भूमिदान करें तथा
 अन्याें को भी भूमिदान हेतु प्रेरित करके पुण्य के भागी बनें। <br></br>
+
 <br ></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;पितृ-ऋण मुक्ति एवं पितृ-दोष निवारण हेतु अपने जीवन में भूमिदान अवश्य करें l  </p>
 <br></br>
+</div>
 
         </div>
         
