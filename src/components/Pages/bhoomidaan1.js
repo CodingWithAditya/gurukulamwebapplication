@@ -115,9 +115,21 @@ export const Bhoomidaan1 = () => {
 
 
       <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+    
         <div class="bg-red-600 mb-6  ml-[360px] h-[50px] w-[300px] pt-2 rounded-3xl">
                  <h1 class="sm:text-3xl text-2xl text-center font-medium title-font  text-yellow-200">भूमि दान योजना
 </h1></div>
+  <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 mr-[20px] ml-[790px] -mt-[500px] z-20 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
+<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
+<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
+<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
+
+<span class="relative font-bold text-2xl">भूमिदान क्यों करना चाहिए 
+ </span>
+
+</a>
+
       <div class="bg-purple-500 rounded-2xl" >     
           <p class=" mb-2 mx-auto justify-between text-justify p-4 leading-relaxed text-xl text-white  text-shadow-xl font-medium">पूज्य गुरुदेव के द्वारा संस्थापित गुरुकुल, छात्रवास, मन्दिर, आयुर्वेदिक
 औ-ुनवजयाधालय, हृदयरोग क्लीनिक, गौ-रु39यााला आदि जिस भूखण्ड पर संचालित है, इन
@@ -168,6 +180,17 @@ export const Bhoomidaan1 = () => {
 <br ></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;पितृ-ऋण मुक्ति एवं पितृ-दोष निवारण हेतु अपने जीवन में भूमिदान अवश्य करें l  </p>
 <br></br>
+    
+<h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">भूमि दान  का महत्व 
+</h1>
+<p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">
+संसार में वस्त्र, अन्न, धन, पशु आदि सभी प्रकार के दान देने योग्य पदार्थ को देने 
+वाली पृथ्वी (भूमि) ही है। वह इस लोक में समस्त प्र्रकार के योग, भोग प्र्रदान करने वाली 
+है। पृथ्वी अचला और अक्षय है अतः इसका फल भी अक्षय होता है। शास्त्रें में भी सभी 
+प्र्रकार के दानों में पृथ्वी (भूमि) का दान करने वाला मनुष्य सबसे अधिक श्रेष्ठ बताया 
+गया है। जैसे कि जन्म-जन्मान्तर पर्यन्त अर्थात् युगों-युगों तक भूमिदान का फल मनुष्य के 
+कुल, वंश, पितरों की कीर्ति गाथा को प्रसारित करता है। </p> <br></br>
+
 </div>
 
         </div>
