@@ -223,34 +223,55 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 <MyModal3 onClose={handleOnClose3} visible={Model3}/>
 <MyModal4 onClose={handleOnClose4} visible={Model4}/>
 
-<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-400 z-20  top-0 lg:left-[15px] lg:w-[303px] relative ">
+<div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-500 z-20  top-0 lg:left-[15px] lg:w-[303px] relative ">
   
 <div class="mb-4">
-    <img src={require('../../images/guruji.jpg')} class="w-[200px] h-[200px] rounded-full ml-5" alt=""/>
-    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50 mt-5">
+    <img src={require('../../images/guruji.jpg')} class="w-[180px] h-[190px] rounded-full  ml-5" alt=""/>
+    <div class="bg-white h-[250px] w-[253px] mt-2 -ml-4 p-2 rounded-3xl">
+    <div class=" text-black font-semibold  ml-8">
+      वै .वा अनन्तश्रीविभूषित 
+    </div>
+    
   
-  <div class="px-6 py-4 ">
-    <div class="font-bold text-xl mb-2">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी </div>
-    <p class="text-gray-700 text-base">
-      
-    विद्वद्वरेण्य श्री गोविन्दाचार्य जी का सम्पूर्ण जीवन संस्कृत एवं संस्कृति को समर्पित रहा। आपके जीवन का उद्देश्य था- शिक्षा, सेवा तथा साधना। </p>
+    <div class="bg-orange-500 w-[250px] -ml-[7px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
+  <p class="mt-2 p-1 text-xl text-center font-semibold  mb-1 text-shadow-xl text-white">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी</p>
+  </div>
+
+  <div class=" text-black font-semibold mt-3 ml-8 text-lg">
+      (संस्थापक , अध्यक्ष ) 
+    </div>
+    <div class=" text-black font-semibold mt-3 ml-6 text-lg">
+    श्रीनिवास सेवार्थ न्यास
+    </div>
+    <div class=" text-black font-semibold mt-3 ml-2 text-lg">
+    श्रीनिवास संस्कृत विद्यापीठम्
+    </div>
+    </div>
+
+    <div class="h-1 bg-white text-white mt-4">
+
+    </div>
+    <img src="https://i.postimg.cc/3R4frnV5/IMG-0559.jpg" class="w-[120px] h-[180px] rounded-full  mt-5 ml-10" alt=""/>
+    <div class="bg-white h-[150px] w-[253px] mt-2 -ml-4 p-2 rounded-3xl">
+   
+  
+    <div class="bg-orange-500 w-[250px] -ml-[7px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
+  <p class="mt-2 p-1 text-xl text-center font-semibold  mb-1 text-shadow-xl text-white">स्वामी श्री जनर्दनाचार्य जी </p>
+  </div>
+
+  <div class=" text-black font-semibold mt-3 ml-10 text-lg">
+      (डॉ . जीवन शर्मा  ) 
+    </div>
+    <div class=" text-black font-semibold mt-3 ml-6 text-lg">
+ वर्तमान महंत एवं अध्यक्ष 
+    </div>
+    
+    </div>
 
     
-    <button onClick={()=> setModel4 (true)} class="bg-blue-500 hover:bg-blue-700 text-white font-bold  px-[60px] py-2 rounded-full mt-5">
 
-  Read More
-</button>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#जय श्रीमन्नारायण  </span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुकुल</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#गुरुजी </span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#भूमिदान  </span>
-    
-  </div>
-  
-</div>
+ 
+
 
 
 
