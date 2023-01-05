@@ -300,7 +300,9 @@ export const Samajik = () => {
   </button>
 </div>
         <div class="  flex flex-col  w-full mb-10">
-         <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">संचालित उल्लेखनीय गतिविधियाँ</h1>
+          <div class="bg-orange-500 w-[390px] ml-[400px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
+         <p class="mt-2 p-1 text-3xl text-center font-semibold  mb-1 text-shadow-xl text-white">संचालित उल्लेखनीय गतिविधियाँ</p>
+         </div>
           <p class=" mx-auto justify-between text-justify leading-[50px] text-xl">1.	आठ वर्ष से लेकर बीस वर्ष तक के बालकों को गुरुकुलीय परम्परानुसार वेद, वेदांग, व्याकरण, वेदान्त, कर्मकाण्ड, ज्योतिष, संगीत, अंग्रेजी, कम्प्यूटर 	आदि की विभिन्न  स्थानों में गुरुकुल के माध्यम से निःशुल्क शिक्षा। <br></br>
 2.	निःशुल्क रोगोपचार हेतु धर्मार्थ आयुर्वेदिक औषधालय संचालित है जिसमें प्रतिदिन 100 से अधिक रोगी लाभ प्राप्त करते हैं।<br></br>
 3.	निःशुल्क रोगोपचार हेतु श्रीनिवास हृदयरोग चिकित्सा केन्द्र संचालित है।<br></br>

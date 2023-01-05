@@ -121,7 +121,9 @@ export const Ayurvedic = () => {
   alt="..."
 />
 </div>
-              <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">धर्मार्थ आयुर्वेदिक औषधालय</h1>
+<div class="bg-orange-500 w-[390px] ml-[400px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
+              <p class=" mt-2 p-1 text-3xl text-center font-semibold  mb-4 text-shadow-xl text-white">धर्मार्थ आयुर्वेदिक औषधालय</p>
+              </div>
           <p class=" mx-auto justify-between text-justify leading-relaxed text-2xl">निःशुल्क रोगोपचार हेतु धर्मार्थ आयुर्वेदिक औषधालय संचालित है। देश के प्रतिष्ठित वैद्य श्री वीरेन्द्र शाह जी के मार्गनिर्देशन में प्रतिदिन 100 से अधिक रोगी लाभ प्राप्त करते हैं। रोगोपचार हेतु आये सभी लोगों को वैद्य-परामर्श तथा औषधियाँ निःशुल्क ही प्रदान की जाती है। </p>
           <button class="flex mx-auto mt-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
          
