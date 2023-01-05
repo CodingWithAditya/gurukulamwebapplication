@@ -121,8 +121,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
       
     <div class="  flex flex-col  w-full mb-10">
-    <button class="flex mx-auto mb-6 mr-10 text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
-    <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास सेवार्थ न्यास</h1>
+     <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">श्रीनिवास सेवार्थ न्यास</h1>
       <p class=" mx-auto justify-between text-justify leading-relaxed text-xl">श्रीनिवास सेवार्थ न्यास एक नो प्रॉफिट नो लॉस की नीति लेकर शिक्षा, सेवा, साधना के माध्यम से समाजसेवा के लिए समर्पित पब्लिक चैरिटेबल ट्रस्ट है, जिसके संस्थापक वैकुण्ठवासी स्वामी श्री गोविन्दाचार्य जी (गोविन्द प्रसाद शर्मा) हैं। यह न्यास (ट्रस्ट) दिल्ली रजिस्ट्रार कार्यालय से पंजीकृत और इनकम टैक्स की धारा 12-A एवं 80 G के अन्तर्गत संस्था पूर्णरूपेण आयकर मुक्त है एवं 80-G के अन्तर्गत दानादाताओं के पक्ष में संस्था को करमुक्ति प्रमाणपत्र प्राप्त है। न्यास के माध्यम से शिक्षा, सेवा और साधना को उद्देश्य करके सभी कार्य किये जाते हैं। जैसे कि मन्दिर की व्यवस्था, गौशाला की व्यवस्था, निःशुल्क आयुर्वेदिक डिस्पैन्शरी, गरीब एवं असहाय बच्चों की शिक्षा हेतु सहायता, गरीब कन्याओं के विवाह में सहायता और सभी देश, धर्म, संस्कृति और समाज के हित में यथासम्भव सेवा के कार्य किये जाते हैं।</p>
       
       <div class="flex flex-wrap justify-center mt-10 ">

@@ -233,8 +233,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <p class="text-gray-700 text-lg break-normal	 mb-4">
       यहाँ के विद्यार्थियों ने राज्यीय, राष्ट्रिय, अखिल भारतीय स्तर पर  आयोजित शलाका परीक्षा, भाषण प्रतियोगिता, श्लोकान्त्याक्षरी प्रतियोगिता, सूत्रन्त्याक्षरी प्रतियोगिता, वाद-विवाद प्रतियोगिता, एकल श्लोकसंगीत प्रतियोगिता, नुक्कड़ नाटक आदि विभिन्न कार्यक्रमों में भाग ग्रहण कर प्रथम, द्वितीय आदि स्थानों को प्राप्त कर गौरवान्वित किया है। 
       </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Donate Now</button>
-    </div>
+         </div>
   </div>
 </div>
 <div class="flex justify-center ml-5 transform transition duration-500 hover:scale-105 ">
@@ -247,8 +246,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <p class="text-gray-700 text-lg mb-4">
       यहाँ से पढे हुये छात्रें ने विभिन्न  विश्वविद्यालयों में जाकर बी-ए तथा एम-ए इत्यादि कक्षाओं में अनेक स्वर्णपदक प्राप्त किये हैं।
       </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Donate Now</button>
-    </div>
+     </div>
   </div>
 </div>
  
@@ -269,8 +267,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 	
 </p>
       
-       <button class="flex mx-auto mt-[10px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
-       
+        
 
        <h2 class="text-[10px] text-center mt-12 text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
       <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">गुरुकुल एवं छात्रें की संयुक्त समय-सारिणी </h1>
