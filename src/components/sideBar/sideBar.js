@@ -159,7 +159,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
    <div class="bg-orange-400 h-[540px] w-[920px] rounded-2xl mt-14"> 
    <img src={require('../../images/head2.png')} alt="log3-copy" border="0" class="h-20 ml-[260px] " />
    <Link to="/bhoomidaan-yojana">
-<a  class=" ml-5 relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-blue-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-blue-500">
+<a  class=" ml-5 relative inline-flex items-center justify-center p-4 px-5 py-2 overflow-hidden font-medium text-blue-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-blue-500">
 <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
 <span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
 <span class="relative text-white font-bold text-xl">भूमिदान </span>
@@ -167,7 +167,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 
 </Link>
 <Link to="/sewarth-nyas">
-<a class="ml-[160px] relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
+<a class="ml-[170px] relative inline-flex items-center justify-center p-4 px-5 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
 <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
 <span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
 <span class="relative text-white  font-bold text-xl">श्रीनिवास सेवार्थ न्यास  </span>
@@ -175,7 +175,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 
 </Link>
 <Link to="/sanskrit-vidyapeetham">
-<a  class="ml-[110px] relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
+<a  class="ml-[110px] relative inline-flex items-center justify-center p-4 px-5 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
 <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
 <span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
 <span class="relative text-white  font-bold text-xl">श्रीनिवास संस्कृत विद्यापीठम्</span>
