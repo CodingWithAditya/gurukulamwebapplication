@@ -117,7 +117,7 @@ export const Bhoomidaan1 = () => {
       <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
     
         <div class="bg-red-600 mb-6  ml-[360px] h-[50px] w-[300px] pt-2 rounded-3xl">
-                 <h1 class="sm:text-3xl text-2xl text-center font-medium title-font  text-yellow-200">भूमि दान योजना
+                 <h1 class="sm:text-3xl text-2xl text-center font-bold title-font  text-yellow-200">भूमि दान योजना
 </h1></div>
   <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 mr-[20px] ml-[790px] -mt-[500px] z-20 py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
