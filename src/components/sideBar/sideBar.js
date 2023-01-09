@@ -251,18 +251,18 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
     <div class="h-1 bg-white text-white mt-4">
 
     </div>
-    <img src="https://i.postimg.cc/3R4frnV5/IMG-0559.jpg" class="w-[120px] h-[180px] rounded-full  mt-5 ml-10" alt=""/>
-    <div class="bg-white h-[150px] w-[253px] mt-2 -ml-4 p-2 rounded-3xl">
+    <img src="https://i.postimg.cc/3R4frnV5/IMG-0559.jpg" class="w-[180px] h-[180px] rounded-full  mt-5 ml-10" alt=""/>
+    <div class="bg-white h-[90px] w-[253px] mt-2 -ml-4 p-2 rounded-3xl">
    
   
-    <div class="bg-orange-500 w-[250px] -ml-[7px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
-  <p class="mt-2 p-1 text-xl text-center font-semibold  mb-1 text-shadow-xl text-white">स्वामी श्री जनर्दनाचार्य जी </p>
+    <div class="bg-orange-500 w-[250px] -ml-[7px] -mt-2 mb-4 rounded-[100px]   shadow-2xl">
+  <p class="mt-2 p-1 text-xl text-center font-semibold  mb-1 text-shadow-xl text-white">स्वामी श्री जनार्दनाचार्य जी </p>
   </div>
 
-  <div class=" text-black font-semibold mt-3 ml-10 text-lg">
+  <div class=" text-black font-medium -mt-3 ml-12 text-l">
       (डॉ . जीवन शर्मा  ) 
     </div>
-    <div class=" text-black font-semibold mt-3 ml-6 text-lg">
+    <div class=" text-black font-semibold -mt-1 ml-8 text-l">
  वर्तमान महंत एवं अध्यक्ष 
     </div>
     
