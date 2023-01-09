@@ -225,7 +225,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 
 <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-500 z-20  top-0 lg:left-[15px] lg:w-[303px] relative ">
   
-<div class="mb-4">
+<div class="mb-3 -mt-5" >
     <img src={require('../../images/guruji.jpg')} class="w-[180px] h-[190px] rounded-full  ml-5" alt=""/>
     <div class="bg-white h-[150px] w-[233px] mt-2 -ml-1 p-2 rounded-3xl">
     <div class=" text-black text-[12px] font-semibold  ml-3">
