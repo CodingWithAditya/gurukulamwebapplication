@@ -19,7 +19,7 @@ const Navbar = () => {
    <img src={require('../../images/head1.png')} alt="log3-copy" border="0" class="h-12 ml-[430px] " />
    
 
-   <a href="#_" class="mt-2 ml-[380px] relative inline-flex items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-3xl shadow-2xl group">
+   <a href="#_" class="mt-2 ml-[430px] relative inline-flex items-center justify-center inline-block p-2  px-2 py-2 overflow-hidden font-medium text-indigo-600 rounded-3xl shadow-2xl group">
 <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
 <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
 <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>

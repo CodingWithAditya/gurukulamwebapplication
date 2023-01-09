@@ -178,7 +178,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
 <a  class="ml-[110px] relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500">
 <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
 <span class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-pink-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
-<span class="relative text-white  font-bold text-xl">श्रीनिवास संस्कृत विद्यापीठम </span>
+<span class="relative text-white  font-bold text-xl">श्रीनिवास संस्कृत विद्यापीठम्</span>
 </a>
 
 </Link>
@@ -227,23 +227,23 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
   
 <div class="mb-4">
     <img src={require('../../images/guruji.jpg')} class="w-[180px] h-[190px] rounded-full  ml-5" alt=""/>
-    <div class="bg-white h-[250px] w-[253px] mt-2 -ml-4 p-2 rounded-3xl">
-    <div class=" text-black font-semibold  ml-8">
-      वै .वा अनन्तश्रीविभूषित 
+    <div class="bg-white h-[150px] w-[233px] mt-2 -ml-1 p-2 rounded-3xl">
+    <div class=" text-black text-[12px] font-semibold  ml-3">
+      वै .वा अनन्तश्रीविभूषित वैकुण्ठवासी
     </div>
     
   
-    <div class="bg-orange-500 w-[250px] -ml-[7px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
-  <p class="mt-2 p-1 text-xl text-center font-semibold  mb-1 text-shadow-xl text-white">वैकुण्ठवासी स्वामी श्रीगोविन्दाचार्यजी</p>
+    <div class="bg-orange-500 w-[220px] -ml-[5px] -mt-2 mb-4 rounded-[100px]   shadow-2xl">
+  <p class="mt-2 p-1 text-lg text-center font-semibold  mb-1 text-shadow-xl text-white"> स्वामी श्रीगोविन्दाचार्यजी</p>
   </div>
 
-  <div class=" text-black font-semibold mt-3 ml-8 text-lg">
-      (संस्थापक , अध्यक्ष ) 
+  <div class=" text-black font-medium -mt-3 ml-8 text-l">
+      (संस्थापक  अध्यक्ष ) 
     </div>
-    <div class=" text-black font-semibold mt-3 ml-6 text-lg">
+    <div class=" text-black font-semibold mt-1 ml-5 text-l">
     श्रीनिवास सेवार्थ न्यास
     </div>
-    <div class=" text-black font-semibold mt-3 ml-2 text-lg">
+    <div class=" text-black font-semibold -mt-1 ml-2 text-l">
     श्रीनिवास संस्कृत विद्यापीठम्
     </div>
     </div>
