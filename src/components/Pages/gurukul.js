@@ -270,8 +270,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       
         
 
-       <h2 class="text-[10px] text-center mt-12 text-indigo-500 tracking-widest font-medium title-font mb-1">WWW.GURUKULSANSKRITAM.COM</h2>
-      <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">गुरुकुल एवं छात्रें की संयुक्त समय-सारिणी </h1>
+             <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">गुरुकुल एवं छात्रें की संयुक्त समय-सारिणी </h1>
      
        <p class="  justify-between text-justify leading-relaxed text-xl">1. आश्रम के सभी छात्र, अध्यापक एवं पुजारीगण प्रातः 3ः45 बजे उठ जाते हैं।<br></br><br></br>
 2.  तत्पश्चात् 4ः30 तक स्नान करके 4ः30 से सभी सन्ध्यावन्दन करते हैं।<br></br><br></br>
