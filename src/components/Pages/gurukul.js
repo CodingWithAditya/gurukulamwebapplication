@@ -18,7 +18,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
         <div class="flex items-start w-full	 relative"	>
           
 
- <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
+ <div className="  sticky border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
         
           <div className=" -my-2 border-b border-gray-100 pb-4">
@@ -118,7 +118,9 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
         </div>
       </div>
     
-      <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+      <div class="overflow-auto px-5  pt-10 mx-auto">
+      <button class="flex mx-auto mt-[10px] ml-[1000px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
+       
       <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
   <div class="carousel-indicators absolute right-10 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
@@ -208,17 +210,17 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
   </div>
 </div>
 
-	यहाँ के छात्रें की उपलब्धियाँ - <br></br>  <br></br>
   <div class="transform transition duration-500 hover:scale-105  flex justify-center mb-10 ">
+
   <div class="flex flex-col md:flex-row w-[1100px] rounded-lg bg-white shadow-md hover:shadow-2xl">
     <img class=" w-full h-[200px] md:h-auto object-cover md:w-[400px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.postimg.cc/qq0LwSVG/DSC-0046.jpg" alt="" />
     <div class="p-6 flex flex-col justify-start">
-     
+    <button class="flex mx-auto mb-[20px] ml-[1px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 font-semibold rounded text-lg">    यहाँ के छात्रें की उपलब्धियाँ - </button>
+       
       <p class="text-gray-700 text-xl  leading-relaxed mb-4">
       जून 1999 से लेकर दिसम्बर 2017 तक श्रीगोविन्दाचार्यजी के मार्गदर्शन, संस्थापकत्व एवं संचालकत्व में संचालित विभिन्न शिक्षण संस्थाओं की प्रगति यह है कि 7 छात्र चीफ (विद्यावारिधि) की उपाधि प्राप्त कर चुके हैं। लगभग 50 छात्र शोध में पंजीकृत हैं। 100 से अधिक छात्र (ठण्मक) (शिक्षाशास्त्री) कर चुके हैं और कई छात्र अभी प्रशिक्षणरत हैं। इसी तरह 200 से ज्यादा छात्रें ने आचार्य  की उपाधि प्राप्त कर ली है और अभी 300 से अधिक छात्र विभिन्न कक्षाओं में अध्ययनरत हैं। मुख्यशाखा दिल्ली की है और इसमें सबसे अधिक लगभग 70 छात्र होते हैं।   
       </p>
-      <button class="flex mx-auto mt-[10px] ml-[1px] text-white bg-blue-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Donate Now</button>
-       
+     
     </div>
   </div>
 </div>
@@ -260,39 +262,32 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       <p class="text-gray-700 text-lg mb-4">
       यहाँ से शिक्षा प्राप्त किये हुये अनेक छात्र भारत तथा नेपाल, अमेरिका इत्यादि देशों में विभिन्न विश्वविद्यालयों में प्राफेसर, लेक्चरर इत्यादि पदों पर रहकर संस्कृत एवं संस्कृति प्रचार प्रसार में संलग्न है। 
       </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Donate Now</button>
-    </div>
+  
+   </div>
   </div>
 </div> 
 
 	
 </p>
-      
-        
 
-             <h1 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900">गुरुकुल एवं छात्रें की संयुक्त समय-सारिणी </h1>
-     
-       <p class="  justify-between text-justify leading-relaxed text-xl">1. आश्रम के सभी छात्र, अध्यापक एवं पुजारीगण प्रातः 3ः45 बजे उठ जाते हैं। तत्पश्चात् 4ः30 तक स्नान करके 4ः30 से सभी सन्ध्यावन्दन करते हैं।<br></br><br></br>
-3. प्रातः 5 बजे कुछ छात्र सुप्रभातम् आदि का पाठ करते हैं तो अर्चकगण कहाली और घण्टध्वनि के साथ मन्दिर में प्रवेश करते हैं। कुछ आचार्य 12 वर्ष से ऊपर के छात्रें के साथ योगासन का अभ्यास कराते हैं। कुछ छात्र हवन प्रारम्भ करते हैं। इस तरह छात्रें में कार्य बाँट कर भगवान् की आराधना, सुप्रभातम्, हवन और योगासन का कार्य एक साथ चलता है। <br></br><br></br>
-4. अर्चक मन्दिर में अन्दर की सफाई के साथ जल भरने आदि कार्य करके 	भगवान् को जगाते हैं और अर्घ्य, पाद्य, धूप, दीप करके मोदक (लड्डू) और दूध का भोग लगाकर ठीक 5ः30 बजे मंगला आरती करते है। इसके बाद भगवान् शालिग्राम का स्नान और मूलविग्रह एवं उत्सव-विग्रह का श्रृंगार करके फल भोग लगाकर ठीक 7ः00 बजे बड़ी आरती होती है। 	 आरती में सुमघõलं स्तोत्र, पुष्पा×जली, तुलसी अर्चना, दिव्यप्रबन्ध, कर्पूर आरती के बाद गुरुपरम्परा पाठ करते हुए तीर्थ (चरणामृत) और भगवान् के चरणों में अर्पित तुलसीपत्र का वितरण, शठारि (भगवान् के श्रीचरणों का भक्तों के शिर से स्पर्श कराना) के साथ भोग लगा हुआ फलप्रसाद वितरण व लघु कीर्तन होता है। शाम की बड़ी आरती में भी यही क्रम है।
-	कुछ अध्यापक प्रातः 6 से 7 बजे तक छात्रें का शास्त्रभ्यास कराते हैं।<br></br><br></br>
-5. आरती के पश्चात् 7ः30 से 8ः30 तक वैदिक सूक्त, लक्ष्मीस्तोत्र एवं श्रीमद्भागवत महापुराण का नित्य पाठ होता है और आचार्यश्री के मुखारविन्द से गीता आदि शास्त्रें पर प्रवचन भी होता है।<br></br><br></br>
-6.	प्रातः 8ः30 बजे भगवान् को अन्न का बालभोग लगता है और उसके बाद छात्रें सहित सभी लोग बालभोग का प्रसाद नाश्ते के रूप में ग्रहण करते हैं।<br></br><br></br>
-7.	इसके बाद मन्दिर में वेद, पुराणादि शास्त्रें का पारायण चलता रहता है।<br></br><br></br>
-8.	9ः00 बजे से 12ः00 बजे तक छात्रें को आचार्यगण वेदाभ्यास (अध्ययन), गणित, अंग्रेजी, संगीत का अध्यापन कराते हैं। <br></br><br></br>
-9.	मध्याह्न 12 बजे राजभोग के बाद भगवान् की आरती होती है। उसके बाद मन्दिर का पट बन्द हो जाता है और सभी आश्रमवासी राजभोग का प्रसाद (भोजन) ग्रहण करते हैं।<br></br><br></br>
-10.	मध्याह्न 1 बजे से 4 बजे तक छात्रगण व्याकरण, काव्य, कोष, हिन्दी कम्प्यूटर आदि का अध्ययन करते हैं।<br></br><br></br>
-11.	शाम 4 बजे से भगवान् का पट खुलता है और दूध तथा मोदक का भोग लगाकर मंगला आरती करते हैं।<br></br><br></br>
-12.	छात्रगण 4 से 6 बजे तक अपने कपड़े धोना और सफाई आदि का कार्य करते हैं।<br></br><br></br>
-13.	सन्ध्यावन्दन ग्रीष्मकाल में शाम को 6 बजे और शीतकाल में शाम को 5 बजे होता है।<br></br><br></br>
-14.	तत्पश्चात् मन्दिर में विविध स्तोत्रें का पारायण होता है।<br></br><br></br>
-15.	शाम को चने का भोग लगाकर शीतकाल में ठीक 6 बजे और ग्रीष्मकाल में शाम ठीक 7 बजे महा आरती होती है। तत्पश्चात् तीर्थ-प्रसाद वितरण व कीर्तन होता है।<br></br><br></br>
-16.	रात्रि का राजभोग 8 बजे होता है और छोटी आरती होती है। इसके बाद सभी लोग भोजन प्रसाद ग्रहण करते हैं।<br></br><br></br>
-17.	बीच-बीच में छात्रगण अपने पाठ का अभ्यास करते रहते हैं।<br></br><br></br>
-18.	रात्रि को 9 बजे दूध भोग लगाकर शयन आरती होती है।<br></br><br></br>
-19.	इस तरह प्रतिदिन भगवान् को आठ बार भोग लगाया जाता है।<br></br><br></br>
-20.	रात्रि 9 बजे दुग्धपान करके छोटे छात्र सो जाते हैं और और बड़े छात्र 10 बजे शयन करते हैं।<br></br><br></br>
-</p>
+
+
+<div>
+<div class="bg-orange-500 w-[390px] ml-[400px] mb-10 mt-3 mb-4 rounded-[100px]   shadow-2xl">
+  
+  <p class="mt-2 p-1 text-xl text-center font-semibold  z-10  mb-1 text-shadow-xl text-white"> गुरुकुल एवं छात्रें की संयुक्त समय-सारिणी </p>
+ 
+  </div>
+<img
+        src="https://i.postimg.cc/CLxQ1YyN/dsanmdasmmndsa.jpg"
+        class="block w-[1100px] h-[700px]  rounded-3x ml-[50px] mb-[100px] shadow-2xl  transform transition duration-500 hover:scale-105 hover:shadow-2xl"
+        alt="Exotic Fruits"
+      />
+
+</div>
+
+
+
 <a href="#_" class="px-[30px] ml-[250px] py-2.5 w-[700px] relative rounded group overflow-hidden font-medium bg-purple-600 text-white inline-block">
 <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-8 00 group-hover:h-full opacity-90"></span>
 <span class="relative group-hover:text-white"> भोजन आदि व्यवस्था का व्यय-विवरण ,छात्र, अध्यापक, कर्मचारी एवं सन्तों की संख्या-100
@@ -645,7 +640,9 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
       </div>
     </div>
   </div>
-</div>
+
+  </div>
+
     </div>
     
    

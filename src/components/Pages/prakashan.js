@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 export const Prakashan = () => {
   return (
     <div class="flex items-start w-full	 relative"	>
- <div className="  border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
+ <div className=" sticky border-2 border-gray-100 p-6 w-3/4 h-[890px] bg-blue-200 z-20  top-0 -left-96 lg:left-0 lg:w-72 relative ">
         <div className="flex flex-col justify-start item-center">
         
           <div className=" -my-2 border-b border-gray-100 pb-4">
@@ -112,7 +112,7 @@ export const Prakashan = () => {
       </div>
     
           
-          <div class="overflow-auto h-[1000px] px-5  pt-10 mx-auto">
+          <div class="overflow-auto px-5  pt-10 mx-auto">
         <div class="  flex flex-col  w-full mb-10">
           <div class="bg-orange-500 w-[390px] ml-[400px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
           <p class="mt-2 p-1 text-3xl text-center font-semibold  mb-1 text-shadow-xl text-white">स्वामी गोविन्दाचार्य जी द्वारा लिखित तथा </p>
