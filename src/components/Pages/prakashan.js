@@ -114,8 +114,8 @@ export const Prakashan = () => {
           
           <div class="overflow-auto px-5  pt-10 mx-auto">
         <div class="  flex flex-col  w-full mb-10">
-          <div class="bg-orange-500 w-[390px] ml-[400px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
-          <p class="mt-2 p-1 text-3xl text-center font-semibold  mb-1 text-shadow-xl text-white">स्वामी गोविन्दाचार्य जी द्वारा लिखित तथा </p>
+          <div class="bg-orange-500 w-[610px] ml-[400px] mt-3 mb-4 rounded-[100px]   shadow-2xl">
+          <p class="mt-2 p-1 text-3xl text-center font-semibold  mb-1 text-shadow-xl text-white">स्वामी गोविन्दाचार्य जी द्वारा लिखित तथा संपादित </p>
           </div>
           <p class=" mx-auto justify-between text-justify leading-[50px] text-xl">1.	पाणिनीय व्याकरणस्यैतिहासिकं परिशीलनम् (संस्कृत में)	<br></br>
 2. 	 नित्यानुसन्धानम् (हिन्दी अनुवाद सहित)<br></br>
