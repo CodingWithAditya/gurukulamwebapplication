@@ -122,15 +122,7 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
     <div class="  flex flex-col  w-full mb-10">
    
     <div class="ml-10">
-    <a href="https://www.gurukulsanskritam.com/gaushala" class="px-5 mb-10 ml-[10px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
-<span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
-<span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
-<span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-orange-600 to-orange-500"></span>
-<span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-xl bg-gradient-to-br to-orange-600 from-orange-500"></span>
-
-<span class="relative">गौशाला </span>
-
-</a>
+    
 <a href="https://www.gurukulsanskritam.com/prakashan" class="px-5 mb-10 ml-[900px] py-2.5 relative rounded-xl group font-medium text-white font-medium inline-block">
 <span class="absolute top-0 left-0 w-full h-full rounded-xl opacity-50 filter blur-sm bg-gradient-to-br from-orange-600 to-orange-500"></span>
 <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-xl opacity-50 from-orange-600 to-orange-500"></span>
