@@ -248,10 +248,7 @@ const [goToBhoomi, setGoToBhoomi ]= React.useState(false);
     </div>
     </div>
 
-    <div class="h-1 bg-white text-white mt-4">
-
-    </div>
-    <img src="https://i.postimg.cc/3R4frnV5/IMG-0559.jpg" class="w-[180px] h-[180px] rounded-full  mt-5 ml-10" alt=""/>
+    <img src="https://i.postimg.cc/3R4frnV5/IMG-0559.jpg" class="w-[180px] h-[180px] rounded-full  mt-1 ml-10" alt=""/>
     <div class="bg-white h-[90px] w-[253px] mt-2 -ml-4 p-2 rounded-3xl">
    
   
