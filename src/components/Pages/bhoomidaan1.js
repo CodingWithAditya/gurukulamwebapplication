@@ -120,6 +120,17 @@ export const Bhoomidaan1 = () => {
         class="block w-[800px] h-[1000px]  rounded-3x ml-[50px] mb-[100px] shadow-2xl  transform transition duration-500 hover:scale-105 hover:shadow-2xl"
         alt="Exotic Fruits"
       />
+      <img
+        src="https://i.postimg.cc/K8wtBcqm/image-2023-01-28-103931979.png"
+        class="block w-[800px] h-[300px]  rounded-3x ml-[50px] mb-[100px] shadow-2xl  transform transition duration-500 hover:scale-105 hover:shadow-2xl"
+        alt="Exotic Fruits"
+      />
+       <img
+        src="https://i.postimg.cc/dVbTDH31/Layer-3.png"
+        class="block w-[800px] h-[300px]  rounded-3x ml-[50px] mb-[100px] shadow-2xl  transform transition duration-500 hover:scale-105 hover:shadow-2xl"
+        alt="Exotic Fruits"
+      />
+        
         
        
             </div>
