@@ -115,6 +115,8 @@ export const Bhoomidaan1 = () => {
 
 
       <div class="overflow-auto  px-5  pt-10 mx-auto">
+      <button class="flex mx-auto mb-[30px] mt-[10px] ml-[300px] text-white bg-blue-700  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-2xl font-medium">भूमिदान करें </button>
+    
       <img
         src="https://i.postimg.cc/K8JDDCgQ/asdsadasdasd.jpg"
         class="block w-[800px] h-[1000px]  rounded-3x ml-[50px] mb-[100px] shadow-2xl  transform transition duration-500 hover:scale-105 hover:shadow-2xl"
