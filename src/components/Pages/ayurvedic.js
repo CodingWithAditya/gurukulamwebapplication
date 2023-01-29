@@ -79,7 +79,7 @@ export const Ayurvedic = () => {
               </h3>
             </div>
             </Link>
-            <Link to="/prakashan">
+            <Link to="/mandir">
             <div className="flex  mb-4 justify-start items-center gap-4 pl-5 hover:bg-orange-500 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <FaOm className="text-3xl text-gray-600 group-hover:text-white " />
               <h3 className="text-xl text-gray-800 group-hover:text-white font-semibold ">
